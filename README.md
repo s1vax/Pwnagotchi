@@ -11,4 +11,6 @@
 - `Ups Hat Para Raspberry Pi Zero (5v) + 1000mah Li-po Battery`
 - `Pantalla De Tinta Electrónica De 2,13 Pulgadas Versión Hat`
 
+# 🔎 Step by step
+
 ### I hope you found this helpful and enjoyable. If so, leave a star ⭐ Best wishes and much success!
