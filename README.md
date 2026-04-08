@@ -7,3 +7,6 @@
 ---
 
 ### 🛒 Things we need
+- Raspberry Pi Zero
+
+### I hope you found this helpful and enjoyable. If so, leave a star ⭐ Best wishes and much success!
