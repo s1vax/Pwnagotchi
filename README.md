@@ -12,11 +12,13 @@
 - `1000mah Li-po Battery`
 - `2,13 inches Hat Version Electronic Ink Display`
 - A `PC` for configuration
+- 
 
 # 🔎 Step by step
 ### 🛠️ Construction & Connections
 
 
-### Firm
+### 💻 Firmware
+
 
 ### I hope you found this helpful and enjoyable. If so, leave a star ⭐ Best wishes and much success!
