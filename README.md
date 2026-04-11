@@ -13,6 +13,8 @@
 - `2,13 inches Hat Version Electronic Ink Display`
 - A `PC` for configuration
 - 
+- `Raspberry Pi Zero Pins`
+
 
 # 🔎 Step by step
 ### 🛠️ Construction & Connections
