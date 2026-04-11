@@ -12,7 +12,7 @@
 - `1000mah Li-po Battery`
 - `2,13 inches Hat Version Electronic Ink Display`
 - A `PC` for configuration
-- 
+- `Micro USB cable`
 - `Raspberry Pi Zero Pins`
 
 
