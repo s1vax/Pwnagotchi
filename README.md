@@ -22,7 +22,6 @@
 
 
 ### 💻 Firmware
-sd
 
 <br>
 
