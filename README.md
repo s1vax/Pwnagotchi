@@ -36,6 +36,7 @@ Se puede orientar el ataque del pwnagotchi a una red personal como prueba de uso
 <br>
 
 ### 🧩 Personalizacion y Opciones
+<br>
 
 ### 📡 Mejoras
 <br>
