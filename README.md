@@ -1,5 +1,12 @@
 # >°-°< Pwnagotchi 
 
+## ⚖️ Legal Disclaimer
+El creador de este repositorio no se hace responsable del uso ajeno con fines maliciosos e inapropiados a traves del dispositivo explicado. Esta totalmente prohibido afectar otras redes WIFI sin el consentimiento ni medidas de seguridad adeacuadas.
+
+### ✅ Entornos seguros y medidas
+Se puede orientar el ataque del pwnagotchi a una red personal como prueba de uso, o simplemente colocarlo en modo pasivo. En el repositorio se explicara en detalle como lograr esto.
+
+
 ## 🛒 Things we need
 - `Raspberry Pi Zero` or `Raspberry Pi Zero 2W`
 - `Ups Hat Raspberry Pi Zero (5v)`
