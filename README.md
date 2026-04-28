@@ -1,5 +1,10 @@
 # >°-°< Pwnagotchi 
 
+<p align="center">
+<img width="400" height="400" alt="WhatsApp Image 2026-04-27 at 12 16 46" src="https://github.com/user-attachments/assets/7599c37a-0f94-436d-b2f4-92932b664243" />
+</p>
+
+
 ## ⚖️ Legal Disclaimer
 El creador de este repositorio no se hace responsable del uso ajeno con fines maliciosos e inapropiados a traves del dispositivo explicado. Esta totalmente prohibido afectar otras redes WIFI sin el consentimiento ni medidas de seguridad adeacuadas.
 
