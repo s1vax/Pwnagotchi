@@ -6,11 +6,10 @@
 
 
 ## ⚖️ Legal Disclaimer
-El creador de este repositorio no se hace responsable del uso ajeno con fines maliciosos e inapropiados a traves del dispositivo explicado. Esta totalmente prohibido afectar otras redes WIFI sin el consentimiento ni medidas de seguridad adeacuadas.
+The creator of this repository is not responsible for any malicious or inappropriate use of the device described. It is strictly prohibited to interfere with other Wi-Fi networks without consent or adequate security measures.
 
-### ✅ Entornos seguros y medidas
-Se puede orientar el ataque del pwnagotchi a una red personal como prueba de uso, o simplemente colocarlo en modo pasivo. En el repositorio se explicara en detalle como lograr esto.
-
+### ✅ Safe environments and measures
+You can target a personal network with the pwnagotchi attack as a proof of use, or simply put it in passive mode. The repository will explain in detail how to do this.
 
 ## 🛒 Things we need
 - `Raspberry Pi Zero` or `Raspberry Pi Zero 2W`
@@ -38,13 +37,13 @@ Se puede orientar el ataque del pwnagotchi a una red personal como prueba de uso
 <br>
 
 
-### 🧩 Personalizacion y Opciones
+### 🧩 Personalization and Options
 <br>
 
-### 📡 Mejoras
+### 📡 Upgrades
 <br>
 
-### 🧊 Carcasas 3D
+### 🧊 3D Cases
 <br>
 
 ### I hope you found this helpful and enjoyable. If so, leave a star ⭐ Best wishes and much success!
