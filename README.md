@@ -28,7 +28,7 @@ You can target a personal network with the pwnagotchi attack as a proof of use, 
 
 ### 🛠️ Construction & Connections 
    - En primer lugar, soldaremos los pines para la Raspberry Pi Zero 2 W. Metodo efectivo para soldar sin quemar todo en el proceso: link video soldadura
-   - Una vez
+   - Una vez hecho eso, conectaremos todo, tanto el UPS Hat como la pantalla de tinta electronica. Sobre el UPS Hat, 4 pines de la Raspberry Pi (del lado corto y soldado) deben hacer contacto y presion sobre los pines retraibles de la placa de alimentacion portatil.
 
 
 <br>
