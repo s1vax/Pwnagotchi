@@ -32,12 +32,13 @@ You can target a personal network with the pwnagotchi attack as a proof of use, 
 
      ¿Como realizamos la verificacion?
    
-   - Concluido con lo anterior, pasamos a colocar la pantalla de tinta electronica.
+   - Concluido con lo anterior, pasamos a colocar la pantalla de tinta electronica (el conector de 8 pines, debe estar del mismo lado que los puertos de conexion de la Raspberry Pi)
 
 
 <br>
 
 ### 💻 Firmware
+   - Existen varias paginas que ofrecen diferentes versiones del pwnagotchi. En este repositorio vamos a utilizar el firmware que se encuentra en la carpeta #firmware.
 
 <br>
 
