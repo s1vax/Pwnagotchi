@@ -20,7 +20,7 @@ You can target a personal network with the pwnagotchi attack as a proof of use, 
 - `Micro USB cable`
 - `Raspberry Pi Zero Pins`
 - `OTG Adapter Micro USB to USB` [optional]
-- `WIFI Antenna` [with monitor configuration available]
+- `WIFI Antenna` [with monitor configuration available] [optional]
 
 <br>
 
