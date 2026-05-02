@@ -26,8 +26,9 @@ You can target a personal network with the pwnagotchi attack as a proof of use, 
 
 ## 🔎 Step by step
 
-### 🛠️ Construction & Connections
-
+### 🛠️ Construction & Connections 
+   - En primer lugar, soldaremos los pines para la Raspberry Pi Zero 2 W. Metodo efectivo para soldar sin quemar todo en el proceso: link video soldadura
+   - Una vez
 
 
 <br>
