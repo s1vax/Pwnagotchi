@@ -13,9 +13,9 @@ You can target a personal network with the pwnagotchi attack as a proof of use, 
 
 ## 🛒 Things we need
 - `Raspberry Pi Zero` or `Raspberry Pi Zero 2W`
-- `Ups Hat Raspberry Pi Zero (5v)`
+- `Ups Hat Waveshare Raspberry Pi Zero (5v)`
 - `1000mah Li-po Battery`
-- `2,13 inches Hat Version Electronic Ink Display`
+- `2,13 inches Waveshare Hat Version Electronic Ink Display`
 - A `PC` for configuration
 - `Micro USB cable`
 - `Raspberry Pi Zero Pins`
@@ -27,8 +27,9 @@ You can target a personal network with the pwnagotchi attack as a proof of use, 
 ## 🔎 Step by step
 
 ### 🛠️ Construction & Connections 
-   - En primer lugar, soldaremos los pines para la Raspberry Pi Zero 2 W. Metodo efectivo para soldar sin quemar todo en el proceso: link video soldadura
-   - Una vez hecho eso, conectaremos todo, tanto el UPS Hat como la pantalla de tinta electronica. Sobre el UPS Hat, 4 pines de la Raspberry Pi (del lado corto y soldado) deben hacer contacto y presion sobre los pines retraibles de la placa de alimentacion portatil.
+   - En primer lugar, soldaremos todos los pines de la Raspberry Pi Zero 2 W. Tener cuidado al soldar ya que los pines se consumen/derriten. Para ello, un metodo efectivo para soldar sin quemar todo en el proceso es el del siguiente video: (link video soldadura)
+   - Una vez hecho eso, conectaremos el UPS Hat con la bateria de LiPo ya conectada tambien en esta placa de alimentacion. Sobre el UPS Hat, 6 pines de la Raspberry Pi (del lado corto y soldado) deben hacer contacto y presion sobre los 6 pines retraibles de la placa de alimentacion portatil de Waveshare. Con ello, pasaremos a verificar la conexion y correcto funcionamiento de la UPS para comprobar si alimentara sin problemas a la Raspberry Pi.
+   - Concluido con lo anterior, pasamos a colocar la pantalla de tinta electronica.
 
 
 <br>
