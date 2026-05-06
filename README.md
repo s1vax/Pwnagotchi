@@ -38,15 +38,15 @@ You can target a personal network with the pwnagotchi attack as a proof of use, 
 <br>
 
 ### 💻 Firmware
-   - Existen varias paginas que ofrecen diferentes versiones del pwnagotchi. En este repositorio vamos a utilizar el firmware que se encuentra en la carpeta #firmware.
+   - Several websites offer different versions of pwnagotchi. In this repository, we will use the firmware located in the #firmware folder.
      
    - Once the `.rar` file with extension `.img` has been downloaded, we need to prepare our Micro SD card in a Micro SD card holder to insert it into our PC and flash it with the file we downloaded.
      
    - To flash the card, it is recommended to use the applications: `balenaEtcher` o `Raspberry Imager`. Depending on which flashing tool we select, we must:
      - For `balenaEtcher`:
-       - Seleccionamos el archivo `.img` correspondiente
-       - Seleccionamos el lugar de almacenamiento
-       - Ejecutamos la escritura
+       - Select the corresponding `.img` file
+       - Select the storage location
+       - Write the file
          
      - Para `Raspberry Imager`:
        - Seleccionamos la placa (en este caso una Raspberry Pi Zero 2 W)
