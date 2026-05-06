@@ -42,8 +42,8 @@ You can target a personal network with the pwnagotchi attack as a proof of use, 
      
    - Once the `.rar` file with extension `.img` has been downloaded, we need to prepare our Micro SD card in a Micro SD card holder to insert it into our PC and flash it with the file we downloaded.
      
-   - Para flashear la tarjeta, se recomienda utilizar las aplicaciones: `balenaEtcher` o `Raspberry Imager`. Segun que herramienta de flasheo seleccionemos debemos de:
-     - Para `balenaEtcher`:
+   - To flash the card, it is recommended to use the applications: `balenaEtcher` o `Raspberry Imager`. Depending on which flashing tool we select, we must:
+     - For `balenaEtcher`:
        - Seleccionamos el archivo `.img` correspondiente
        - Seleccionamos el lugar de almacenamiento
        - Ejecutamos la escritura
