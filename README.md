@@ -40,7 +40,7 @@ You can target a personal network with the pwnagotchi attack as a proof of use, 
 ### 💻 Firmware
    - Existen varias paginas que ofrecen diferentes versiones del pwnagotchi. En este repositorio vamos a utilizar el firmware que se encuentra en la carpeta #firmware.
      
-   - Una vez descargado el archivo `.rar` con extension `.img`, debemos preparar nuestra tarjeta Micro SD en un porta Micro SD para insertarla en nuestra PC y flashearla con el archivo que descargamos
+   - Once the `.rar` file with extension `.img` has been downloaded, we need to prepare our Micro SD card in a Micro SD card holder to insert it into our PC and flash it with the file we downloaded.
      
    - Para flashear la tarjeta, se recomienda utilizar las aplicaciones: `balenaEtcher` o `Raspberry Imager`. Segun que herramienta de flasheo seleccionemos debemos de:
      - Para `balenaEtcher`:
