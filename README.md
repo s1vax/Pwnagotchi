@@ -48,11 +48,11 @@ You can target a personal network with the pwnagotchi attack as a proof of use, 
        - Select the storage location
        - Write the file
          
-     - Para `Raspberry Imager`:
-       - Seleccionamos la placa (en este caso una Raspberry Pi Zero 2 W)
-       - Seleccionamos `Use custom` en la pestaña siguiente, donde buscaremos nuestro archivo `.img`
-       - Seleccionamos el lugar de almacenamiento
-       - Ejecutamos la escritura
+     - For `Raspberry Imager`:
+       - Select the board (in this case, a `Raspberry Pi Zero 2 W`)
+       - Select `Use custom` in the next tab, where you will locate your `.img` file
+       - Select the storage location
+       - Write the file
 
 <br>
 
