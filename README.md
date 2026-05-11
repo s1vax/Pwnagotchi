@@ -8,8 +8,14 @@
 ## ⚖️ Legal Disclaimer
 The creator of this repository is not responsible for any malicious or inappropriate use of the device described. It is strictly prohibited to interfere with other Wi-Fi networks without consent or adequate security measures.
 
+<br>
+<br>
+
 ### ✅ Safe environments and measures
 You can target a personal network with the pwnagotchi attack as a proof of use, or simply put it in passive mode. The repository will explain in detail how to do this.
+
+<br>
+<br>
 
 ## 🛒 Things we need
 - `Raspberry Pi Zero` or `Raspberry Pi Zero 2W`
@@ -36,6 +42,7 @@ You can target a personal network with the pwnagotchi attack as a proof of use, 
 
 
 <br>
+<br>
 
 ### 💻 Firmware
    - Several websites offer different versions of pwnagotchi. In this repository, we will use the firmware located in the #firmware folder.
@@ -60,6 +67,7 @@ You can target a personal network with the pwnagotchi attack as a proof of use, 
 
 ***⚠️ NOTE:*** Si conectamos el cable Micro USB a la Raspberry, el firmware de Pwnagotchi comenzara a actuar sin control alguno, capturando handshakes y desautenticando dispositivos. Para no infligir ciberdelitos se debe proceder con una configuracion segura y controlada.
 
+<br>
 <br>
 
 ### ⚙️ Configuration
