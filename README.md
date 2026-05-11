@@ -29,6 +29,7 @@ You can target a personal network with the pwnagotchi attack as a proof of use, 
 - `WIFI Antenna` [with monitor configuration available] [optional]
 
 <br>
+<br>
 
 ## 🔎 Step by step
 
@@ -74,9 +75,11 @@ You can target a personal network with the pwnagotchi attack as a proof of use, 
 
 
 <br>
+<br>
 
 ### 🧩 Personalization and Options
 
+<br>
 <br>
 
 ### 📡 Upgrades
@@ -84,8 +87,9 @@ You can target a personal network with the pwnagotchi attack as a proof of use, 
 - ***TP Link AC600 WIFI Antenna***:
 
 <br>
+<br>
 
-### 🧊 3D Cases
+### 🧊 3D Cases 
 
 <br>
 
