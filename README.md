@@ -65,6 +65,8 @@ You can target a personal network with the pwnagotchi attack as a proof of use, 
    - Una vez flasheada la Micro SD, la colocamos en nuestra Raspberry Pi
    - Seguido a ello, para alimentar, conectamos el cable Micro USB a la placa en el puerto de `USB` (NO AL `PWR IN`), y a nuestra PC. 
    - Si no hay errores, ya podran ver el firmware de Pwnagotchi funcionando (y su carita tierna pero feroz)
+   
+<br>
 
 ***⚠️ NOTE:*** Si conectamos el cable Micro USB a la Raspberry, el firmware de Pwnagotchi comenzara a actuar sin control alguno, capturando handshakes y desautenticando dispositivos. Para no infligir ciberdelitos se debe proceder con una configuracion segura y controlada.
 
