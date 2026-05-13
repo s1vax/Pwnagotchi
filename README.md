@@ -85,8 +85,8 @@ You can target a personal network with the pwnagotchi attack as a proof of use, 
 <br>
 
 ### 📡 Upgrades
-- ***Micro USB to USB OTG Adapter***:
-- ***TP Link AC600 WIFI Antenna***:
+- ***Micro USB to USB OTG Adapter***: Este adaptador nos permitira que la Raspberry Pi pueda tener acceso a otros dispositivos que permitan expandir sus capacidades
+- ***TP Link AC600 WIFI Antenna***: Junto al adaptador Micro USB OTG, podemos expandir el rango de ataque de nuestro dispositivo colocando una antena WIFI externa, siempre que tenga disponible la configuracion `Monitor`
 
 <br>
 <br>
