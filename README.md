@@ -62,7 +62,11 @@ You can target a personal network with the pwnagotchi attack as a proof of use, 
        - Select the storage location
        - Write the file
 
-   - Una vez flasheada la Micro SD, nos debe de salir nuestro Micro SD card holder como `Boot` o `Bootloader` en el apartado de discos de nuestra computadora (o tambien, puede que al finalizar el flasheo, se abra una ventana de este nuevo "disco"). En dicha carpeta de disco, debemos de agregar un archivo llamado `config` con extension `.toml`, en definitiva, `config.toml`. Para ello, 
+   - Una vez flasheada la Micro SD, al conectar nuevamente nuestra Micro SD card holder, nos debe de salir como `Boot` o `Bootloader` en el apartado de discos de nuestra computadora (o tambien, puede que al finalizar el flasheo, se abra una ventana de este nuevo "disco", aun conectado el holder). En dicha carpeta de disco, debemos de agregar un archivo llamado `config` con extension `.toml`, en definitiva, `config.toml`. 
+     - Para ello, vamos a crear un archivo de texto comun (colocar un nombre cualquiera)
+     - Luego, debemos configurar la visualizacion de archivos en nuestra carpeta de Windows 11. Iremos a `View`, luego seleccionamos en ese menu desplegable a `Show`, y por ultimo a `File name extensions`
+     - Con esta configuracion, veremos todas las extensiones de nuestros archivos en esa carpeta de disco
+     - Entonces, lo que haremos es, seleccionar nuestro
    - La colocamos en nuestra Raspberry Pi
    - Seguido a ello, para realizar la primera prueba de alimentacion, conectamos el cable Micro USB a la placa Raspberry en el puerto de `USB` (NO AL `PWR IN`), y a nuestra PC. 
    - Si no hay errores, ya podran ver el firmware de Pwnagotchi funcionando (y su carita tierna pero feroz)
