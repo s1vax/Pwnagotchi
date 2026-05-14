@@ -104,9 +104,18 @@ ui.display.color = "black"
 
 <br>
    
-   - En el primer inicio (tanto en el puerto `USB` como en el puerto `PWR IN`) el firmware va a tardar un poco debido a que esta generando las claves de configuracion y demas. Dara un aviso de esto en la pantalla.
+   - En el primer inicio (tanto si conectamos por el puerto `USB` como por el puerto `PWR IN`, de la placa) el firmware va a tardar un poco debido a que esta generando las claves de configuracion y demas. Dara un aviso de esto en la pantalla.
+
+<br>
+
    - Luego de que se haya inicializado, cuando lo desconectemos, y volvamos a conectar, comenzara a correr normalmente y mas rapido en el inicio.
+
+<br>
+
    - Por ultimo, pasaremos a convertir nuestro Pwnagotchi en un dispostivo portatil, haciendo funcionar el UPS Hat de Waveshare. Para ello, como ya verificamos la funcionalidad de la bateria, lo que haremos es conectarla a la placa UPS (si no la teniamos conectada), luego debemos colocar el interruptor en `ON`, y finalmente conectar, por medio de un cable USB C a USB, la placa UPS a nuestra PC. Cunado realicemos esto, se encendera un led rojo en la placa UPS, lo dejamos unos minutos y desconectamos.
+
+<br>
+
    - Y listo ✅ Ya tendremos nuestro dispositivo de hacking Pwnagotchi listo!
    
 <br>
