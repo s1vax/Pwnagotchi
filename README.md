@@ -77,7 +77,7 @@ You can target a personal network with the pwnagotchi attack as a proof of use, 
      - Con esta configuracion, veremos todas las extensiones de nuestros archivos en esa carpeta de disco
      - Entonces, lo que haremos es, seleccionar nuestro archivo de texto creado, darle click derecho y luego en `Rename`. Aqui seleccionamos todo, incluyendo la extension y colocamos: `config.toml`
      - Nos saldra un cartel de advertencia sobre que estamos cambiando el tipo de extension, le damos en `Ok`. Hasta aqui nuestro archivo adicional ya estara creado.
-     - Como es un archivo nuevo, no tiene ninguna informacion, comando o contenido alguno. A continuacion vamos a agregarle el codigo siguiente:
+     - Como es un archivo nuevo, no tiene ninguna informacion, comando o contenido alguno en el. A continuacion vamos a agregarle el codigo siguiente:
 
 ```     
 main.name = "pwnagotchi"
@@ -92,7 +92,10 @@ ui.display.color = "black"
 ```
 <br>
 
-   - La colocamos en nuestra Raspberry Pi
+   - En adicion al archivo anterior, vamos a modificar otros dos archivos: `config.txt` y `cmdline.txt`
+     - 
+
+   - Colocamos la SD en nuestra Raspberry Pi
      
    <br>
 
