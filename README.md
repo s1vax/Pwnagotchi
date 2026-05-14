@@ -62,7 +62,7 @@ You can target a personal network with the pwnagotchi attack as a proof of use, 
        - Select the storage location
        - Write the file
 
-   - Una vez flasheada la Micro SD, nos debe de salir nuestro Micro SD card holder como `Boot` o `Bootloader` en el apartado de discos de nuestra computadora (o tambien, puede que al finalizar el flasheo, se abra una ventana de este nuevo "disco"). En dicha carpeta de disco, debemos de agregar un archivo llamado `config` con extension `.toml`, en definitiva, `config.toml`. Para ello, hacemos
+   - Una vez flasheada la Micro SD, nos debe de salir nuestro Micro SD card holder como `Boot` o `Bootloader` en el apartado de discos de nuestra computadora (o tambien, puede que al finalizar el flasheo, se abra una ventana de este nuevo "disco"). En dicha carpeta de disco, debemos de agregar un archivo llamado `config` con extension `.toml`, en definitiva, `config.toml`. Para ello, 
    - La colocamos en nuestra Raspberry Pi
    - Seguido a ello, para realizar la primera prueba de alimentacion, conectamos el cable Micro USB a la placa Raspberry en el puerto de `USB` (NO AL `PWR IN`), y a nuestra PC. 
    - Si no hay errores, ya podran ver el firmware de Pwnagotchi funcionando (y su carita tierna pero feroz)
@@ -73,13 +73,13 @@ You can target a personal network with the pwnagotchi attack as a proof of use, 
    
 <br>
 
-***⚠️ NOTE:*** Si conectamos el cable Micro USB a la Raspberry, el firmware de Pwnagotchi comenzara a actuar sin control alguno, capturando handshakes y desautenticando dispositivos. Para no infligir ciberdelitos se debe proceder con una configuracion segura y controlada.
+***⚠️ NOTE:*** Si conectamos el cable Micro USB a la Raspberry en su puerto `PWR IN`, el firmware de Pwnagotchi comenzara a actuar sin control alguno, capturando handshakes y desautenticando dispositivos. Para no infligir ciberdelitos se debe proceder con una conexion y configuracion, segura y controlada.
 
 <br>
 <br>
 
 ### ⚙️ Configuration
-
+Al inicio,
 
 <br>
 <br>
