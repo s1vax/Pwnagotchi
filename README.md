@@ -64,8 +64,11 @@ You can target a personal network with the pwnagotchi attack as a proof of use, 
 
    - Una vez flasheada la Micro SD, nos debe de salir nuestro Micro SD card holder como `Boot` o `Bootloader` en el apartado de discos de nuestra computadora (o tambien, puede que al finalizar el flasheo, se abra una ventana de este nuevo "disco"). En dicha carpeta de disco, debemos de agregar un archivo llamado `config` con extension `.toml`, en definitiva, `config.toml`. Para ello, hacemos
    - La colocamos en nuestra Raspberry Pi
-   - Seguido a ello, para alimentar, conectamos el cable Micro USB a la placa en el puerto de `USB` (NO AL `PWR IN`), y a nuestra PC. 
+   - Seguido a ello, para realizar la primera prueba de alimentacion, conectamos el cable Micro USB a la placa Raspberry en el puerto de `USB` (NO AL `PWR IN`), y a nuestra PC. 
    - Si no hay errores, ya podran ver el firmware de Pwnagotchi funcionando (y su carita tierna pero feroz)
+   - En el primer inicio (tanto en el puerto `USB` como en el puerto `PWR IN`) el firmware va a tardar un poco debido a que esta generando las claves de configuracion y demas. Dara un aviso de esto en la pantalla.
+   - Luego de que se haya inicializado, cuando lo desconectemos, y volvamos a conectar, comenzara a correr normalmente y mas rapido en el inicio.
+   - Por ultimo, pasaremos a hacer nuestro Pwnagotchi portatil, haciendo funcionar el UPS Hat de Waveshare. Para ello, como ya verificamos la funcionalidad de la bateria, lo que haremos es conectarla a la placa UPS (si no la teniamos conectada), colocar el interruptor en `ON`, y conectar por medio de un cable USB C a USB, la placa UPS a nuestra PC.
    
 <br>
 
