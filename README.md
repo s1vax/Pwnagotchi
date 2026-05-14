@@ -93,7 +93,12 @@ ui.display.color = "black"
 <br>
 
    - En adicion al archivo anterior, vamos a modificar otros dos archivos: `config.txt` y `cmdline.txt`
-     - 
+     - Para `config.txt`:
+        - l
+     - Para `cmdline.txt`:
+        - 1
+
+ <br>
 
    - Colocamos la SD en nuestra Raspberry Pi
      
