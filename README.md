@@ -79,7 +79,9 @@ You can target a personal network with the pwnagotchi attack as a proof of use, 
 <br>
 
 ### ⚙️ Configuration
-Al inicio,
+Al inicio, cuando conectamos nuestro cable Micro USB a la Raspberry por el puerto `PWR IN`, con nuestro firmware cargado, como dijimos, este dispositivo empieza a actuar sin control.
+
+Para ello, en esta seccion, vamos a configurarlo para realizar operaciones de pruebas controladas y seguras (aunque lo conectemos por este puerto de alimentacion)
 
 <br>
 <br>
