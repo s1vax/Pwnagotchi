@@ -66,7 +66,9 @@ You can target a personal network with the pwnagotchi attack as a proof of use, 
      - Para ello, vamos a crear un archivo de texto comun (colocar un nombre cualquiera)
      - Luego, debemos configurar la visualizacion de archivos en nuestra carpeta de Windows 11. Iremos a `View`, luego seleccionamos en ese menu desplegable a `Show`, y por ultimo a `File name extensions`
      - Con esta configuracion, veremos todas las extensiones de nuestros archivos en esa carpeta de disco
-     - Entonces, lo que haremos es, seleccionar nuestro
+     - Entonces, lo que haremos es, seleccionar nuestro archivo de texto creado, darle click derecho y luego en `Rename`. Aqui seleccionamos todo, incluyendo la extension y colocamos: `config.toml`
+     - Nos saldra un cartel de advertencia sobre que estamos cambiando el tipo de extension, le damos en `Ok`. Hasta aqui nuestro archivo adicional ya estara creado.
+     - 
    - La colocamos en nuestra Raspberry Pi
    - Seguido a ello, para realizar la primera prueba de alimentacion, conectamos el cable Micro USB a la placa Raspberry en el puerto de `USB` (NO AL `PWR IN`), y a nuestra PC. 
    - Si no hay errores, ya podran ver el firmware de Pwnagotchi funcionando (y su carita tierna pero feroz)
