@@ -68,7 +68,8 @@ You can target a personal network with the pwnagotchi attack as a proof of use, 
    - Si no hay errores, ya podran ver el firmware de Pwnagotchi funcionando (y su carita tierna pero feroz)
    - En el primer inicio (tanto en el puerto `USB` como en el puerto `PWR IN`) el firmware va a tardar un poco debido a que esta generando las claves de configuracion y demas. Dara un aviso de esto en la pantalla.
    - Luego de que se haya inicializado, cuando lo desconectemos, y volvamos a conectar, comenzara a correr normalmente y mas rapido en el inicio.
-   - Por ultimo, pasaremos a hacer nuestro Pwnagotchi portatil, haciendo funcionar el UPS Hat de Waveshare. Para ello, como ya verificamos la funcionalidad de la bateria, lo que haremos es conectarla a la placa UPS (si no la teniamos conectada), colocar el interruptor en `ON`, y conectar por medio de un cable USB C a USB, la placa UPS a nuestra PC.
+   - Por ultimo, pasaremos a convertir nuestro Pwnagotchi en un dispostivo portatil, haciendo funcionar el UPS Hat de Waveshare. Para ello, como ya verificamos la funcionalidad de la bateria, lo que haremos es conectarla a la placa UPS (si no la teniamos conectada), luego debemos colocar el interruptor en `ON`, y finalmente conectar, por medio de un cable USB C a USB, la placa UPS a nuestra PC. Cunado realicemos esto, se encendera un led rojo en la placa UPS, lo dejamos unos minutos y desconectamos.
+   - Y listo ✅
    
 <br>
 
