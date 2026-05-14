@@ -47,8 +47,13 @@ You can target a personal network with the pwnagotchi attack as a proof of use, 
 
 ### 💻 Firmware
    - Several websites offer different versions of pwnagotchi. In this repository, we will use the firmware located in the #firmware folder.
+
+<br>
+
      
    - Once the `.rar` file with extension `.img` has been downloaded from the #firmware folder, we need to prepare our Micro SD card in a Micro SD card holder to insert it into our PC and flash it with the file we downloaded.
+
+   <br>
      
    - To flash the card, it is recommended to use the applications: `balenaEtcher` o `Raspberry Imager`. Depending on which flashing tool we select, we must:
      - For `balenaEtcher` (recomended):
@@ -61,19 +66,44 @@ You can target a personal network with the pwnagotchi attack as a proof of use, 
        - Select `Use custom` in the next tab, where you will locate your `.img` file
        - Select the storage location
        - Write the file
+         
+<br>
 
    - Una vez flasheada la Micro SD, al conectar nuevamente nuestra Micro SD card holder, nos debe de salir como `Boot` o `Bootloader` en el apartado de discos de nuestra computadora (o tambien, puede que al finalizar el flasheo, se abra una ventana de este nuevo "disco", aun conectado el holder). En dicha carpeta de disco, debemos de agregar un archivo llamado `config` con extension `.toml`, en definitiva, `config.toml`. Este archivo esta relacionado con la pantalla de tinta electronica del Pwnagotchi, es necesario para que esta funcione. 
    
       ***¿Como agregamos este archivo?***
      - Para ello, vamos a crear un archivo de texto comun (colocar un nombre cualquiera)
-     - Luego, debemos configurar la visualizacion de archivos en nuestra carpeta de Windows 11. Iremos a `View`, luego seleccionamos en ese menu desplegable a `Show`, y por ultimo a `File name extensions`
+     - Luego, debemos configurar la visualizacion de archivos en nuestra carpeta de disco de Windows 11. Iremos a `View`, luego seleccionamos en ese menu desplegable a `Show`, y por ultimo a `File name extensions`
      - Con esta configuracion, veremos todas las extensiones de nuestros archivos en esa carpeta de disco
      - Entonces, lo que haremos es, seleccionar nuestro archivo de texto creado, darle click derecho y luego en `Rename`. Aqui seleccionamos todo, incluyendo la extension y colocamos: `config.toml`
      - Nos saldra un cartel de advertencia sobre que estamos cambiando el tipo de extension, le damos en `Ok`. Hasta aqui nuestro archivo adicional ya estara creado.
-     - 
+     - Como es un archivo nuevo, no tiene ninguna informacion, comando o contenido alguno. A continuacion vamos a agregarle el codigo siguiente:
+
+```     
+main.name = "pwnagotchi"
+main.lang = "en"
+main.whitelist = [
+  "TuRedWifi"
+]
+
+ui.display.enabled = true
+ui.display.type = "waveshare_3" # o "waveshare_4", "waveshare_213d", etc.
+ui.display.color = "black"
+```
+<br>
+
    - La colocamos en nuestra Raspberry Pi
-   - Seguido a ello, para realizar la primera prueba de alimentacion, conectamos el cable Micro USB a la placa Raspberry en el puerto de `USB` (NO AL `PWR IN`), y a nuestra PC. 
+     
+   <br>
+
+   - Seguido a ello, para realizar la primera prueba de alimentacion, conectamos el cable Micro USB a la placa Raspberry en el puerto de `USB` (NO AL `PWR IN`), y a nuestra PC.
+
+<br>
+     
    - Si no hay errores, ya podran ver el firmware de Pwnagotchi funcionando (y su carita tierna pero feroz)
+
+<br>
+   
    - En el primer inicio (tanto en el puerto `USB` como en el puerto `PWR IN`) el firmware va a tardar un poco debido a que esta generando las claves de configuracion y demas. Dara un aviso de esto en la pantalla.
    - Luego de que se haya inicializado, cuando lo desconectemos, y volvamos a conectar, comenzara a correr normalmente y mas rapido en el inicio.
    - Por ultimo, pasaremos a convertir nuestro Pwnagotchi en un dispostivo portatil, haciendo funcionar el UPS Hat de Waveshare. Para ello, como ya verificamos la funcionalidad de la bateria, lo que haremos es conectarla a la placa UPS (si no la teniamos conectada), luego debemos colocar el interruptor en `ON`, y finalmente conectar, por medio de un cable USB C a USB, la placa UPS a nuestra PC. Cunado realicemos esto, se encendera un led rojo en la placa UPS, lo dejamos unos minutos y desconectamos.
