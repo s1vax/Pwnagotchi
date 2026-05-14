@@ -51,7 +51,7 @@ You can target a personal network with the pwnagotchi attack as a proof of use, 
    - Once the `.rar` file with extension `.img` has been downloaded from the #firmware folder, we need to prepare our Micro SD card in a Micro SD card holder to insert it into our PC and flash it with the file we downloaded.
      
    - To flash the card, it is recommended to use the applications: `balenaEtcher` o `Raspberry Imager`. Depending on which flashing tool we select, we must:
-     - For `balenaEtcher`:
+     - For `balenaEtcher` (recomended):
        - Select the corresponding `.img` file
        - Select the storage location
        - Write the file
@@ -62,7 +62,8 @@ You can target a personal network with the pwnagotchi attack as a proof of use, 
        - Select the storage location
        - Write the file
 
-   - Una vez flasheada la Micro SD, la colocamos en nuestra Raspberry Pi
+   - Una vez flasheada la Micro SD, nos debe de salir nuestro Micro SD card holder como `Boot` o `Bootloader` en el apartado de discos de nuestra computadora (o tambien, puede que al finalizar el flasheo, se abra una ventana de este nuevo "disco"). En dicha carpeta de disco, debemos de agregar un archivo llamado `config` con extension `.toml`, en definitiva, `config.toml`. Para ello, hacemos
+   - La colocamos en nuestra Raspberry Pi
    - Seguido a ello, para alimentar, conectamos el cable Micro USB a la placa en el puerto de `USB` (NO AL `PWR IN`), y a nuestra PC. 
    - Si no hay errores, ya podran ver el firmware de Pwnagotchi funcionando (y su carita tierna pero feroz)
    
