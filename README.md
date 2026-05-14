@@ -93,10 +93,15 @@ ui.display.color = "black"
 <br>
 
    - En adicion al archivo anterior, vamos a modificar otros dos archivos: `config.txt` y `cmdline.txt`
-     - Para `config.txt`:
-        - l
-     - Para `cmdline.txt`:
-        - 1
+     - Para `config.txt`, eliminamos su codigo existente, y lo reemplazamos por:
+        - ```
+
+        ```
+          
+     - Para `cmdline.txt`, eliminamos su codigo existente, y lo reemplazamos por:
+       ```
+       console=serial0,115200 console=tty1 root=/dev/mmcblk0p2 rootfstype=ext4 fsck.repair=yes rootwait modules-load=dwc2,g_ether
+       ```
 
  <br>
 
