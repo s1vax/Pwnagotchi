@@ -227,9 +227,9 @@ You can target a personal network with the pwnagotchi attack as a proof of use, 
 <br>
 
 ### ⚙️ Configuration
-Al inicio, cuando conectamos nuestro cable Micro USB a la Raspberry por el puerto `PWR IN` y con nuestro firmware cargado (o simplemente brindandole alimentacion a la Raspberry Pi con el UPS Hat), como dijimos, el Pwnagotchi empezara a actuar sin control.
+En los pasos anteriores, cuando conectamos nuestro cable Micro USB a la Raspberry por el puerto `PWR IN` y con nuestro firmware cargado (o simplemente brindandole alimentacion a la Raspberry Pi con el UPS Hat), como dijimos, el Pwnagotchi empezara a actuar sin control.
 
-Para ello, en esta seccion, vamos a configurarlo con el objetivo de que realice operaciones de pruebas controladas y seguras (aunque lo conectemos por este puerto de alimentacion)
+Para ello, en esta seccion, vamos a configurarlo con el objetivo de que realice operaciones de pruebas controladas y seguras (aunque lo conectemos por este puerto de alimentacion, garantizando seguridad).
 
 <br>
 <br>
