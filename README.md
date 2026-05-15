@@ -69,7 +69,7 @@ You can target a personal network with the pwnagotchi attack as a proof of use, 
        - Write the file
 <br>
 
-   - Una vez flasheada la Micro SD, al conectar nuevamente nuestra Micro SD card holder, nos debe de salir como `Boot` o `Bootloader` en el apartado de discos de nuestra computadora (o tambien, puede que al finalizar el flasheo, se abra una ventana de este nuevo "disco", aun conectado el holder). En dicha carpeta de disco, debemos de agregar un archivo llamado `config` con extension `.toml`, en definitiva, `config.toml`. Este archivo esta relacionado con la pantalla de tinta electronica del Pwnagotchi, es necesario para que esta funcione. 
+   - Una vez flasheada la Micro SD, puede que al finalizar el flasheo, se abra una nueva ventana de carpeta de "disco" llamada `Boot` o `Bootloader`, en nuestra computadora. Si vemos que esto no ocurre, desconectamos y conectamos nuevamente nuestra Micro SD card holder, y ahi nos deberia de salir esa ventana emergente, o simplemente lo podemos buscar en el apartado de discos de nuestra computadora con el nombre anterior. En dicha carpeta de disco, debemos de agregar un archivo llamado `config` con extension `.toml`, en definitiva, `config.toml`. Este archivo esta relacionado con la pantalla de tinta electronica del Pwnagotchi, es necesario para que esta funcione. 
    
       - ¿Como agregamos este archivo?
         - Para ello, vamos a crear un archivo de texto comun (colocar un nombre cualquiera)
