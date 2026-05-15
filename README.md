@@ -92,7 +92,8 @@ You can target a personal network with the pwnagotchi attack as a proof of use, 
          ```
 <br>
 
-   - En adicion al archivo anterior, vamos a modificar otros dos archivos: `config.txt` y `cmdline.txt`
+   - En adicion al archivo anterior, vamos a modificar otros dos archivos: : `config.txt` y `cmdline.txt`. Lo haremos editandolos y abriendolos con el bloc de notas (dandole click derecho al archivo a editar, y seleccionando `Open with Notepad`).
+   
      - Para `config.txt`, eliminamos su codigo existente, y lo reemplazamos por:
      
           ```
@@ -176,6 +177,10 @@ You can target a personal network with the pwnagotchi attack as a proof of use, 
        ```
        console=serial0,115200 console=tty1 root=/dev/mmcblk0p2 rootfstype=ext4 fsck.repair=yes rootwait modules-load=dwc2,g_ether
        ```
+
+ <br>
+
+   - Guardamos los cambios en el bloc de notas
 
  <br>
 
