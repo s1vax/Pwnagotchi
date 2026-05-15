@@ -206,7 +206,7 @@ You can target a personal network with the pwnagotchi attack as a proof of use, 
 
 <br>
 
-   - Por ultimo, pasaremos a convertir nuestro Pwnagotchi en un dispostivo portatil, haciendolo funcionar con el UPS Hat de Waveshare. Para ello, como ya verificamos la funcionalidad, tanto de la bateria como de las placas, lo que haremos es conectar la bateria LiPo a la placa UPS (si no las teniamos conectadas), luego, debemos colocar el interruptor en `ON`, y finalmente, por medio de un cable USB C a USB, conectar la placa UPS a nuestra PC. Cunado realicemos esto, se encendera un led rojo en la placa UPS, lo dejamos unos minutos y desconectamos. Apagamos y prendemos la placa UPS Hat con el interrumptor, para reiniciar, y ya deberia ser capaz de brindar alimentacion.
+   - Por ultimo, pasaremos a convertir nuestro Pwnagotchi en un dispostivo portatil, haciendolo funcionar con el UPS Hat de Waveshare. Para ello, en primer lug como ya verificamos la funcionalidad, tanto de la bateria como de las placas, lo que haremos es conectar la bateria LiPo a la placa UPS (si no las teniamos conectadas), luego, debemos colocar el interruptor en `ON` de dicha placa, y finalmente, por medio de un cable USB C a USB, conectar la placa UPS a nuestra PC. Cuando realicemos esto, se encendera un led rojo en la placa UPS, a la cual deberemos de dejar prendida unos segundos, y la desconectamos. Bajamos el interruptor a `OFF` y prendemos nuevamente nuestra placa UPS Hat con el interruptor en `ON` (esto con el fin de hacer un reinicio), y ya deberia ser capaz de brindar alimentacion por su cuenta.
 
 <br>
 
@@ -214,7 +214,7 @@ You can target a personal network with the pwnagotchi attack as a proof of use, 
    
 <br>
 
-***⚠️ NOTE:*** Si conectamos el cable Micro USB a la Raspberry en su puerto `PWR IN`, el firmware de Pwnagotchi comenzara a actuar sin control alguno, capturando handshakes y desautenticando dispositivos. Para no infligir ciberdelitos se debe proceder con una conexion y configuracion, segura y controlada.
+***⚠️ NOTE:*** Si conectamos el cable Micro USB a la Raspberry en su puerto `PWR IN`, el firmware de Pwnagotchi comenzara a actuar sin control alguno, capturando handshakes y desautenticando dispositivos. Para no infligir leyes con ciberdelitos. se debe proceder con una conexion y configuracion, segura y controlada.
 
 <br>
 <br>
