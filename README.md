@@ -42,7 +42,7 @@ You can target a personal network with the pwnagotchi attack as a proof of use, 
         - Comprobar soldaduras de la Raspberry Pi Zero 2 W
         - Comrpobar funcionamiento de la placa UPS Hat de Waveshare
    
-   - Concluido con lo anterior, pasamos a colocar la pantalla de tinta electronica. Para comprobar si hemos el conector de 8 pines, debe estar del mismo lado que los puertos de conexion de la Raspberry Pi)
+   - Concluido con lo anterior, pasamos a colocar la pantalla de tinta electronica. Para comprobar si la hemos colocado correctamente, el conector de 8 pines de esta pantalla, debe estar en paralelo o del mismo lado, que los puertos de conexion de la Raspberry Pi (los cuales son: `USB`, `Mini HDMI` y `PWR IN`).
 
 
 <br>
