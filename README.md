@@ -37,13 +37,20 @@ You can target a personal network with the pwnagotchi attack as a proof of use, 
    - En primer lugar, soldaremos todos los pines de la Raspberry Pi Zero 2 W. Tener cuidado al soldar ya que los pines se consumen/derriten. Para ello, un metodo efectivo para soldar sin quemar todo en el proceso es el del siguiente video: https://www.youtube.com/watch?v=jYKzsLmMV6o
    - Una vez hecho eso, le conectaremos al UPS Hat la bateria de LiPo. Luego, mediante los tornillos que nos vienen incluidos en el paquete de Waveshare, colocamos esta placa de alimentacion por debajo de la Raspberry Pi. Sobre el UPS Hat, 6 pines de la Raspberry Pi (del lado corto y soldado de la placa) deben hacer contacto y presion sobre los 6 pines retraibles que el UPS tiene.
    - Con ello montado, pasaremos a verificar la conexion y la alimentacion, para comprobar si la Raspberry Pi se encendera sin problemas.
-      - ¿Como realizamos la verificacion?
-        - Medir la tension de la bateria
-        - Comprobar soldaduras de la Raspberry Pi Zero 2 W
-        - Comrpobar funcionamiento de la placa UPS Hat de Waveshare
    
-   - Concluido con lo anterior, pasamos a colocar la pantalla de tinta electronica. Para comprobar si la hemos colocado correctamente, el conector de 8 pines de esta pantalla, debe estar en paralelo o del mismo lado, que los puertos de conexion de la Raspberry Pi (los cuales son: `USB`, `Mini HDMI` y `PWR IN`).
-
+      - ¿Como realizamos la verificacion?
+      
+        - Medir la tension de la bateria
+        
+        - Comprobar soldaduras de la Raspberry Pi Zero 2 W
+        
+        - Comprobar funcionamiento de la placa UPS Hat de Waveshare 
+          - Conectar la bateria LiPo a la placa UPS (si no las teniamos conectadas).
+          - Luego, debemos colocar el interruptor en `ON` de dicha placa.
+          - Por medio de un cable `USB C` a `USB`, conectaremos la placa UPS a nuestra PC. Cuando realicemos esto, se deberia encender un led rojo en la placa UPS, a la cual deberemos de dejar prendida unos segundos, y la             desconectamos. 
+          - Finalmente, bajamos el interruptor a `OFF` y prendemos nuevamente nuestra placa UPS Hat con el interruptor en `ON` (esto con el fin de hacer un reinicio), y ya deberia ser capaz de brindar alimentacion por su              cuenta.
+   
+   - Concluido con lo anterior, pasamos a colocar la pantalla de tinta electronica. Para comprobar si la hemos colocado correctamente, el conector de 8 pines de esta pantalla, debe estar en paralelo o del mismo                 lado, que los puertos de conexion de la Raspberry Pi (los cuales son: `USB`, `Mini HDMI` y `PWR IN`).
 
 <br>
 <br>
@@ -58,24 +65,24 @@ You can target a personal network with the pwnagotchi attack as a proof of use, 
      
    - To flash the card, it is recommended to use the applications: `balenaEtcher` o `Raspberry Imager`. Depending on which flashing tool we select, we must:
      - For `balenaEtcher` (recomended):
-       - Select the corresponding `.img` file
-       - Select the storage location
-       - Write the file
+       - Select the corresponding `.img` file.
+       - Select the storage location.
+       - Write the file.
          
      - For `Raspberry Imager`:
-       - Select the board (in this case, a `Raspberry Pi Zero 2 W`)
-       - Select `Use custom` in the next tab, where you will locate your `.img` file
-       - Select the storage location
-       - Write the file
+       - Select the board (in this case, a `Raspberry Pi Zero 2 W`).
+       - Select `Use custom` in the next tab, where you will locate your `.img` file.
+       - Select the storage location.
+       - Write the file.
 <br>
 
    - Una vez flasheada la Micro SD, puede que al finalizar el flasheo, se abra una nueva ventana de carpeta de "disco" llamada `Boot` o `Bootloader`, en nuestra computadora. Si vemos que esto no ocurre, desconectamos y conectamos nuevamente nuestra Micro SD card holder, y ahi nos deberia de salir esa ventana emergente, o simplemente lo podemos buscar en el apartado de discos de nuestra computadora con el nombre anterior. En dicha carpeta de disco, debemos de agregar un archivo llamado `config` con extension `.toml`, en definitiva, `config.toml`. Este archivo esta relacionado con la pantalla de tinta electronica del Pwnagotchi, es necesario para que esta funcione. 
    
       - ¿Como agregamos este archivo?
-        - Para ello, vamos a crear un archivo de texto comun (colocar un nombre cualquiera)
-        - Luego, debemos configurar la visualizacion de archivos en nuestra carpeta de disco de Windows 11. Iremos a `View`, luego seleccionamos en ese menu desplegable a `Show`, y por ultimo a `File name extensions`
-        - Con esta configuracion, veremos todas las extensiones de nuestros archivos en esa carpeta de disco
-        - Entonces, lo que haremos es, seleccionar nuestro archivo de texto creado, darle click derecho y luego en `Rename`. Aqui seleccionamos todo, incluyendo la extension y colocamos: `config.toml`
+        - Para ello, vamos a crear un archivo de texto comun (colocar un nombre cualquiera).
+        - Luego, debemos configurar la visualizacion de archivos en nuestra carpeta de disco de Windows 11. Iremos a `View`, luego seleccionamos en ese menu desplegable a `Show`, y por ultimo a `File name extensions`.
+        - Con esta configuracion, veremos todas las extensiones de nuestros archivos en esa carpeta de disco.
+        - Entonces, lo que haremos es, seleccionar nuestro archivo de texto creado, darle click derecho y luego en `Rename`. Aqui seleccionamos todo, incluyendo la extension y colocamos: `config.toml`.
         - Nos saldra un cartel de advertencia sobre que estamos cambiando el tipo de extension, le damos en `Ok`. Hasta aqui nuestro archivo adicional ya estara creado.
         - Como es un archivo nuevo, no tiene ninguna informacion, comando o contenido alguno en el. A continuacion vamos a agregarle el codigo siguiente:
      
@@ -180,11 +187,11 @@ You can target a personal network with the pwnagotchi attack as a proof of use, 
 
  <br>
 
-   - Guardamos los cambios en el bloc de notas (en cada archivo)
+   - Guardamos los cambios en el bloc de notas (en cada archivo).
 
  <br>
 
-   - Desconectamos el SD holder de nuestra PC y colocamos la SD en nuestra Raspberry Pi
+   - Desconectamos el SD holder de nuestra PC y colocamos la SD en nuestra Raspberry Pi.
      
    <br>
 
@@ -192,7 +199,7 @@ You can target a personal network with the pwnagotchi attack as a proof of use, 
 
 <br>
      
-   - Si no hay errores, ya podran ver el firmware de Pwnagotchi funcionando (y su carita tierna pero feroz)
+   - Si no hay errores, ya podran ver el firmware de Pwnagotchi funcionando (y su carita tierna pero feroz).
 
 <br>
    
@@ -206,30 +213,24 @@ You can target a personal network with the pwnagotchi attack as a proof of use, 
 
 <br>
 
-   - Por ultimo, pasaremos a convertir nuestro Pwnagotchi en un dispostivo portatil, haciendolo funcionar con el UPS Hat de Waveshare. Para ello, en primer lugar, desarmaremos el montaje que teniamos (UPS + Raspberry + Pantalla de Tinta Electronica), y nos enfocaremos en la placa alimentadora de Waveshare.
-   
-     Como ya verificamos la funcionalidad, tanto de la bateria como de las placas, lo que haremos es:
-       - Conectar la bateria LiPo a la placa UPS (si no las teniamos conectadas)
-       - Luego, debemos colocar el interruptor en `ON` de dicha placa
-       - Por medio de un cable `USB C` a `USB`, conectaremos la placa UPS a nuestra PC. Cuando realicemos esto, se deberia encender un led rojo en la placa UPS, a la cual deberemos de dejar prendida unos segundos, y la desconectamos. 
-       - Finalmente, bajamos el interruptor a `OFF` y prendemos nuevamente nuestra placa UPS Hat con el interruptor en `ON` (esto con el fin de hacer un reinicio), y ya deberia ser capaz de brindar alimentacion por su cuenta.
+   - Por ultimo, haremos que nuestro Pwnagotchi sea portatil mediante el UPS Hat de Waveshare. Simplemente ponemos el interruptor en `ON`.
 
 
 <br>
 
-   - Volvemos a montar los componentes y listo ✅ Ya tendremos nuestro dispositivo de hacking Pwnagotchi funcionando!
+   - Y listo ✅ Ya tendremos nuestro dispositivo de hacking Pwnagotchi funcionando!
    
 <br>
 
-***⚠️ NOTE:*** Si conectamos el cable Micro USB a la Raspberry en su puerto `PWR IN`, el firmware de Pwnagotchi comenzara a actuar sin control alguno, capturando handshakes y desautenticando dispositivos. Para no infligir leyes con ciberdelitos. se debe proceder con una conexion y configuracion, segura y controlada.
+***⚠️ NOTE:*** Si conectamos el cable Micro USB a la Raspberry en su puerto `PWR IN`, o alimentamos la placa mediante la placa UPS Hat, el firmware de Pwnagotchi comenzara a actuar sin control alguno, capturando handshakes y desautenticando dispositivos. Para no infligir leyes, se debe proceder con una conexion y configuracion, segura y controlada.
 
 <br>
 <br>
 
 ### ⚙️ Configuration
-En los pasos anteriores, cuando conectamos nuestro cable Micro USB a la Raspberry por el puerto `PWR IN` y con nuestro firmware cargado (o simplemente brindandole alimentacion a la Raspberry Pi con el UPS Hat), como dijimos, el Pwnagotchi empezara a actuar sin control.
+Hasta este punto, en los pasos anteriores, cuando conectemos nuestro cable Micro USB a la Raspberry por el puerto `PWR IN` (o simplemente brindandole alimentacion a la Raspberry Pi con el UPS Hat), y con nuestro firmware cargado, el Pwnagotchi empezara a actuar sin control, resultando un dispositivo peligroso, y ademas detectable (si, se puede saber cuando alguien esta utilizando un Pwnagotchi).
 
-Para ello, en esta seccion, vamos a configurarlo con el objetivo de que realice operaciones de pruebas controladas y seguras (aunque lo conectemos por este puerto de alimentacion, garantizando seguridad).
+Para ello, en esta seccion, vamos a configurarlo con el objetivo de que realice operaciones de pruebas controladas y seguras (sin importar por donde se alimente, garantizando seguridad).
 
 <br>
 <br>
@@ -240,11 +241,11 @@ Para ello, en esta seccion, vamos a configurarlo con el objetivo de que realice 
 <br>
 
 ### 📡 Upgrades
-- ***Micro USB to USB OTG Adapter***: Este adaptador nos permitira que la Raspberry Pi pueda tener acceso a otros dispositivos que permitan expandir sus capacidades
+- ***Micro USB to USB OTG Adapter***: Este adaptador nos permitira que la Raspberry Pi pueda tener acceso a otros dispositivos que permitan expandir sus capacidades.
 
 <br>
 
-- ***TP Link AC600 WIFI Antenna***: Junto al adaptador Micro USB OTG, podemos expandir el rango de ataque de nuestro dispositivo colocando una antena WIFI externa, siempre que tenga disponible la configuracion `Monitor`
+- ***TP Link AC600 WIFI Antenna***: Junto al adaptador Micro USB OTG, podemos expandir el rango de ataque de nuestro dispositivo colocando una antena WIFI externa, siempre que tenga disponible la configuracion `Monitor`.
 
 <br>
 <br>
