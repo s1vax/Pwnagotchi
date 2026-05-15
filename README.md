@@ -36,7 +36,7 @@ You can target a personal network with the pwnagotchi attack as a proof of use, 
 ### 🛠️ Construction & Connections 
    - En primer lugar, soldaremos todos los pines de la Raspberry Pi Zero 2 W. Tener cuidado al soldar ya que los pines se consumen/derriten. Para ello, un metodo efectivo para soldar sin quemar todo en el proceso es el del siguiente video: https://www.youtube.com/watch?v=jYKzsLmMV6o
    - Una vez hecho eso, le conectaremos al UPS Hat la bateria de LiPo. Luego, mediante los tornillos que nos vienen incluidos en el paquete de Waveshare, colocamos esta placa de alimentacion por debajo de la Raspberry Pi. Sobre el UPS Hat, 6 pines de la Raspberry Pi (del lado corto y soldado de la placa) deben hacer contacto y presion sobre los 6 pines retraibles que el UPS tiene.
-   - Con ello montado, pasaremos a verificar la conexion y la alimentacion para comprobar si la Raspberry Pi se encendera sin problemas.
+   - Con ello montado, pasaremos a verificar la conexion y la alimentacion, para comprobar si la Raspberry Pi se encendera sin problemas.
       - ¿Como realizamos la verificacion?
         - Medir la tension de la bateria
         - Comprobar soldaduras de la Raspberry Pi Zero 2 W
@@ -204,11 +204,11 @@ You can target a personal network with the pwnagotchi attack as a proof of use, 
 
 <br>
 
-   - Por ultimo, pasaremos a convertir nuestro Pwnagotchi en un dispostivo portatil, haciendo funcionar el UPS Hat de Waveshare. Para ello, como ya verificamos la funcionalidad de la bateria, lo que haremos es conectarla a la placa UPS (si no la teniamos conectada), luego debemos colocar el interruptor en `ON`, y finalmente conectar, por medio de un cable USB C a USB, la placa UPS a nuestra PC. Cunado realicemos esto, se encendera un led rojo en la placa UPS, lo dejamos unos minutos y desconectamos.
+   - Por ultimo, pasaremos a convertir nuestro Pwnagotchi en un dispostivo portatil, haciendolo funcionar con el UPS Hat de Waveshare. Para ello, como ya verificamos la funcionalidad, tanto de la bateria como de las placas, lo que haremos es conectar la bateria LiPo a la placa UPS (si no las teniamos conectadas), luego, debemos colocar el interruptor en `ON`, y finalmente, por medio de un cable USB C a USB, conectar la placa UPS a nuestra PC. Cunado realicemos esto, se encendera un led rojo en la placa UPS, lo dejamos unos minutos y desconectamos. Apagamos y prendemos la placa UPS Hat con el interrumptor, para reiniciar, y ya deberia ser capaz de brindar alimentacion.
 
 <br>
 
-   - Y listo ✅ Ya tendremos nuestro dispositivo de hacking Pwnagotchi listo!
+   - Y listo ✅ Ya tendremos nuestro dispositivo de hacking Pwnagotchi funcionando!
    
 <br>
 
@@ -218,9 +218,9 @@ You can target a personal network with the pwnagotchi attack as a proof of use, 
 <br>
 
 ### ⚙️ Configuration
-Al inicio, cuando conectamos nuestro cable Micro USB a la Raspberry por el puerto `PWR IN` y con nuestro firmware cargado, como dijimos, este dispositivo empezara a actuar sin control.
+Al inicio, cuando conectamos nuestro cable Micro USB a la Raspberry por el puerto `PWR IN` y con nuestro firmware cargado (o simplemente brindandole alimentacion a la Raspberry Pi con el UPS Hat), como dijimos, este dispositivo empezara a actuar sin control.
 
-Para ello, en esta seccion, vamos a configurarlo para realizar operaciones de pruebas controladas y seguras (aunque lo conectemos por este puerto de alimentacion)
+Para ello, en esta seccion, vamos a configurarlo con el objetivo de que realice operaciones de pruebas controladas y seguras (aunque lo conectemos por este puerto de alimentacion)
 
 <br>
 <br>
