@@ -25,7 +25,7 @@ You can target a personal network with the pwnagotchi attack as a proof of use, 
 - A `PC` for configuration
 - `Micro USB cable`
 - `Raspberry Pi Zero Pins`
-- `OTG Adapter Micro USB to USB` [optional]
+- `OTG Adapter Micro USB to USB A` [optional]
 - `WIFI Antenna` [with monitor configuration available] [optional]
 
 <br>
@@ -47,7 +47,7 @@ You can target a personal network with the pwnagotchi attack as a proof of use, 
         - Comprobar funcionamiento de la placa UPS Hat de Waveshare 
           - Conectar la bateria LiPo a la placa UPS (si no las teniamos conectadas).
           - Luego, debemos colocar el interruptor en `ON` de dicha placa.
-          - Por medio de un cable `USB C` a `USB`, conectaremos la placa UPS a nuestra PC. Cuando realicemos esto, se deberia encender un led rojo en la placa UPS, a la cual deberemos de dejar prendida unos segundos, y la             desconectamos. 
+          - Por medio de un cable `USB C` a `USB A`, conectaremos la placa UPS a nuestra PC. Cuando realicemos esto, se deberia encender un led rojo en la placa UPS, a la cual deberemos de dejar prendida unos segundos, y la             desconectamos. 
           - Finalmente, bajamos el interruptor a `OFF` y prendemos nuevamente nuestra placa UPS Hat con el interruptor en `ON` (esto con el fin de hacer un reinicio), y ya deberia ser capaz de brindar alimentacion por su              cuenta.
    
    - Concluido con lo anterior, pasamos a colocar la pantalla de tinta electronica. Para comprobar si la hemos colocado correctamente, el conector de 8 pines de esta pantalla, debe estar en paralelo o del mismo                 lado, que los puertos de conexion de la Raspberry Pi (los cuales son: `USB`, `Mini HDMI` y `PWR IN`).
@@ -195,7 +195,7 @@ You can target a personal network with the pwnagotchi attack as a proof of use, 
      
    <br>
 
-   - Seguido a ello, para realizar la primera prueba de alimentacion, conectamos el cable Micro USB a la placa Raspberry en el puerto de `USB` (NO AL `PWR IN`), y a nuestra PC.
+   - Seguido a ello, para realizar la primera prueba de funcionamiento, conectamos el cable Micro USB a la placa Raspberry en el puerto de `USB` (y no al puerto `PWR IN`), y el `USB A` del cable a nuestra PC.
 
 <br>
      
@@ -241,7 +241,7 @@ Para ello, en esta seccion, vamos a configurarlo con el objetivo de que realice 
 <br>
 
 ### 📡 Upgrades
-- ***Micro USB to USB OTG Adapter***: Este adaptador nos permitira que la Raspberry Pi pueda tener acceso a otros dispositivos que permitan expandir sus capacidades.
+- ***Micro USB to USB A OTG Adapter***: Este adaptador nos permitira que la Raspberry Pi pueda tener acceso a otros dispositivos que permitan expandir sus capacidades.
 
 <br>
 
