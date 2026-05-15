@@ -12,7 +12,7 @@ The creator of this repository is not responsible for any malicious or inappropr
 <br>
 
 ### ✅ Safe environments and measures
-You can target a personal network with the pwnagotchi attack as a proof of use, or simply put it in passive mode. The repository will explain in detail how to do this.
+You can target a personal network with the pwnagotchi attack as a proof of use, or simply put it in passive mode (`manual mode`). The repository will explain in detail how to do this.
 
 <br>
 <br>
@@ -40,7 +40,11 @@ You can target a personal network with the pwnagotchi attack as a proof of use, 
    
       - ¿Como realizamos la verificacion?
       
-        - Medir la tension de la bateria
+        - Medir la tension de la bateria LiPo
+          - Utilizando un multimetro, verificaremos la tension de la bateria LiPo de 3.7v.
+          - Conectamos las puntas del multimetro en sus respectivos conectores del propio multimetro (cable negro en `COM`, y cable rojo en `V, Ω, Hz, °C, ...`).
+          - Luego ponemos la llave selectora del multimetro en `V---` (voltaje o tension continua), y en el valor `6v`.
+          - Y por ultimo medimos. Colocamos el `cable rojo` del multimetro en la parte `roja o positiva` de la bateria, y el `cable negro` del multimetro en la parte `negra o negativa` de la bateria.
         
         - Comprobar soldaduras de la Raspberry Pi Zero 2 W
         
@@ -195,8 +199,8 @@ You can target a personal network with the pwnagotchi attack as a proof of use, 
      
    <br>
 
-   - Seguido a ello, para realizar la primera prueba de funcionamiento, conectamos el cable Micro USB a la placa Raspberry en el puerto de `USB` (y no al puerto `PWR IN`), y el `USB A` del cable a nuestra PC.
-
+   - Seguido a ello, para realizar la primera prueba de funcionamiento, conectamos el cable Micro USB a la placa Raspberry en su puerto de `USB` (y no al puerto `PWR IN`), y el `USB A` del cable a nuestra PC. En el firmware de Pwnagotchi, el puerto `USB` de la Raspberry Pi se encuentra en un `safe mode` o mejor dicho, en un `manual mode`, esto significa que alimentando la placa por este puerto con el firmware cargado, no se ejecutara de forma automatica los procesos de desautenticacion y handshakes. Por lo que podremos corroborar si se ejecuta de forma correcta el programa, sin la necesidad de que automaticamente ataque a las redes cercanas.
+   
 <br>
      
    - Si no hay errores, ya podran ver el firmware de Pwnagotchi funcionando (y su carita tierna pero feroz).
@@ -213,7 +217,7 @@ You can target a personal network with the pwnagotchi attack as a proof of use, 
 
 <br>
 
-   - Por ultimo, haremos que nuestro Pwnagotchi sea portatil mediante el UPS Hat de Waveshare. Simplemente ponemos el interruptor en `ON`.
+   - Por ultimo, haremos que nuestro Pwnagotchi sea portatil mediante el uso del UPS Hat de Waveshare. Simplemente ponemos el interruptor de esta placa en `ON`.
 
 
 <br>
@@ -222,13 +226,13 @@ You can target a personal network with the pwnagotchi attack as a proof of use, 
    
 <br>
 
-***⚠️ NOTE:*** Si conectamos el cable Micro USB a la Raspberry en su puerto `PWR IN`, o alimentamos la placa mediante la placa UPS Hat, el firmware de Pwnagotchi comenzara a actuar sin control alguno, capturando handshakes y desautenticando dispositivos. Para no infligir leyes, se debe proceder con una conexion y configuracion, segura y controlada.
+***⚠️ NOTE:*** Si conectamos el cable Micro USB a la Raspberry en su puerto `PWR IN`, o alimentamos la placa mediante la placa UPS Hat, el firmware de Pwnagotchi comenzara a actuar sin control alguno, es decir, entrara en su `auto mode` por defecto, capturando handshakes y desautenticando dispositivos. Para no infligir leyes, se debe proceder con una conexion y configuracion, segura y controlada.
 
 <br>
 <br>
 
 ### ⚙️ Configuration
-Hasta este punto, en los pasos anteriores, cuando conectemos nuestro cable Micro USB a la Raspberry por el puerto `PWR IN` (o simplemente brindandole alimentacion a la Raspberry Pi con el UPS Hat), y con nuestro firmware cargado, el Pwnagotchi empezara a actuar sin control, resultando un dispositivo peligroso, y ademas detectable (si, se puede saber cuando alguien esta utilizando un Pwnagotchi).
+Hasta este punto, en los pasos anteriores, cuando conectemos nuestro cable Micro USB a la Raspberry por el puerto `PWR IN` (o simplemente brindandole alimentacion a la Raspberry Pi con el UPS Hat), y con nuestro firmware cargado, el Pwnagotchi empezara a actuar sin control, resultando un dispositivo peligroso para las redes WIFI cercanas, y ademas detectable (si, se puede saber cuando alguien esta utilizando un Pwnagotchi).
 
 Para ello, en esta seccion, vamos a configurarlo con el objetivo de que realice operaciones de pruebas controladas y seguras (sin importar por donde se alimente, garantizando seguridad).
 
