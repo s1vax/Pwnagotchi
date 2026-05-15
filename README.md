@@ -53,9 +53,7 @@ You can target a personal network with the pwnagotchi attack as a proof of use, 
 
 <br>
 
-     
    - Once the `.rar` file with extension `.img` has been downloaded from the #firmware folder, we need to prepare our Micro SD card in a Micro SD card holder to insert it into our PC and flash it with the file we downloaded.
-
    <br>
      
    - To flash the card, it is recommended to use the applications: `balenaEtcher` o `Raspberry Imager`. Depending on which flashing tool we select, we must:
@@ -69,30 +67,29 @@ You can target a personal network with the pwnagotchi attack as a proof of use, 
        - Select `Use custom` in the next tab, where you will locate your `.img` file
        - Select the storage location
        - Write the file
-         
 <br>
 
    - Una vez flasheada la Micro SD, al conectar nuevamente nuestra Micro SD card holder, nos debe de salir como `Boot` o `Bootloader` en el apartado de discos de nuestra computadora (o tambien, puede que al finalizar el flasheo, se abra una ventana de este nuevo "disco", aun conectado el holder). En dicha carpeta de disco, debemos de agregar un archivo llamado `config` con extension `.toml`, en definitiva, `config.toml`. Este archivo esta relacionado con la pantalla de tinta electronica del Pwnagotchi, es necesario para que esta funcione. 
    
-      ***¿Como agregamos este archivo?***
-     - Para ello, vamos a crear un archivo de texto comun (colocar un nombre cualquiera)
-     - Luego, debemos configurar la visualizacion de archivos en nuestra carpeta de disco de Windows 11. Iremos a `View`, luego seleccionamos en ese menu desplegable a `Show`, y por ultimo a `File name extensions`
-     - Con esta configuracion, veremos todas las extensiones de nuestros archivos en esa carpeta de disco
-     - Entonces, lo que haremos es, seleccionar nuestro archivo de texto creado, darle click derecho y luego en `Rename`. Aqui seleccionamos todo, incluyendo la extension y colocamos: `config.toml`
-     - Nos saldra un cartel de advertencia sobre que estamos cambiando el tipo de extension, le damos en `Ok`. Hasta aqui nuestro archivo adicional ya estara creado.
-     - Como es un archivo nuevo, no tiene ninguna informacion, comando o contenido alguno en el. A continuacion vamos a agregarle el codigo siguiente:
+      - ¿Como agregamos este archivo?
+        - Para ello, vamos a crear un archivo de texto comun (colocar un nombre cualquiera)
+        - Luego, debemos configurar la visualizacion de archivos en nuestra carpeta de disco de Windows 11. Iremos a `View`, luego seleccionamos en ese menu desplegable a `Show`, y por ultimo a `File name extensions`
+        - Con esta configuracion, veremos todas las extensiones de nuestros archivos en esa carpeta de disco
+        - Entonces, lo que haremos es, seleccionar nuestro archivo de texto creado, darle click derecho y luego en `Rename`. Aqui seleccionamos todo, incluyendo la extension y colocamos: `config.toml`
+        - Nos saldra un cartel de advertencia sobre que estamos cambiando el tipo de extension, le damos en `Ok`. Hasta aqui nuestro archivo adicional ya estara creado.
+        - Como es un archivo nuevo, no tiene ninguna informacion, comando o contenido alguno en el. A continuacion vamos a agregarle el codigo siguiente:
+     
+          ```     
+           main.name = "pwnagotchi"
+           main.lang = "en"
+           main.whitelist = [
+           "TuRedWifi"
+            ]
 
-         ```     
-          main.name = "pwnagotchi"
-          main.lang = "en"
-          main.whitelist = [
-          "TuRedWifi"
-           ]
-
-           ui.display.enabled = true
-           ui.display.type = "waveshare_3" # o "waveshare_4", "waveshare_213d", etc.
-           ui.display.color = "black"
-         ```
+            ui.display.enabled = true
+            ui.display.type = "waveshare_3" # o "waveshare_4", "waveshare_213d", etc.
+            ui.display.color = "black"
+          ```
 <br>
 
    - En adicion al archivo anterior, vamos a modificar otros dos archivos: : `config.txt` y `cmdline.txt`. Lo haremos editandolos y abriendolos con el bloc de notas (dandole click derecho al archivo a editar, y seleccionando `Open with Notepad`).
@@ -235,6 +232,9 @@ Para ello, en esta seccion, vamos a configurarlo para realizar operaciones de pr
 
 ### 📡 Upgrades
 - ***Micro USB to USB OTG Adapter***: Este adaptador nos permitira que la Raspberry Pi pueda tener acceso a otros dispositivos que permitan expandir sus capacidades
+
+<br>
+
 - ***TP Link AC600 WIFI Antenna***: Junto al adaptador Micro USB OTG, podemos expandir el rango de ataque de nuestro dispositivo colocando una antena WIFI externa, siempre que tenga disponible la configuracion `Monitor`
 
 <br>
