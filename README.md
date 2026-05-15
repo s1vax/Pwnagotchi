@@ -180,11 +180,11 @@ You can target a personal network with the pwnagotchi attack as a proof of use, 
 
  <br>
 
-   - Guardamos los cambios en el bloc de notas
+   - Guardamos los cambios en el bloc de notas (en cada archivo)
 
  <br>
 
-   - Colocamos la SD en nuestra Raspberry Pi
+   - Desconectamos el SD holder de nuestra PC y colocamos la SD en nuestra Raspberry Pi
      
    <br>
 
