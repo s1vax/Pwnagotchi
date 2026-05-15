@@ -31,6 +31,37 @@ You can target a personal network with the pwnagotchi attack as a proof of use, 
 <br>
 <br>
 
+## ❓ ¿What is Pwnagotchi & How it works?
+- `Pwnagotchi` es una "mascota virtual" orientada a la ciberseguridad y el hardware hacking. En el fondo, es un agente de aprendizaje por refuerzo profundo (Deep Reinforcement Learning) basado en la arquitectura A2C (Advantage Actor-Critic). Su objetivo principal es auditar redes inalámbricas "comiéndose" los handshakes y PMKIDs de las redes WPA/WPA2 que encuentra en su entorno.
+
+  A diferencia de las herramientas de auditoría tradicionales donde el usuario debe configurar manualmente los parámetros del ataque, Pwnagotchi aprende de su entorno de radiofrecuencia (RF) y ajusta su comportamiento de    forma dinámica para maximizar la captura de material criptográfico.
+<br>
+
+- ¿Cómo funciona?
+Para lograr su cometido, Pwnagotchi combina hardware de bajo consumo (generalmente una Raspberry Pi Zero W o Zero 2 W) con un stack de software muy potente:
+
+  - ***El Motor (Bettercap)***: El núcleo de sus capacidades ofensivas y de escaneo es bettercap. Pwnagotchi utiliza la API de esta herramienta para interactuar con la interfaz de red en modo monitor, inyectar paquetes (como ataques de desautenticación) y capturar el tráfico.
+
+  - ***El Cerebro (Inteligencia Artificial)***: Aquí es donde entra el modelo A2C. Pwnagotchi evalúa constantemente su entorno y toma decisiones sobre qué canales escanear, cuánto tiempo permanecer en cada uno y qué tipo de paquetes de desautenticación enviar a los clientes conectados. Si sus decisiones resultan en la captura exitosa de un handshake (su recompensa), la red neuronal ajusta sus pesos para favorecer ese comportamiento en el futuro.
+
+  - ***La Personalidad (UI y Estados)***: Su estado de ánimo refleja lo que está sucediendo a nivel de red y de hardware. Si está capturando muchos handshakes, estará feliz. Si hay poco tráfico o no logra capturar nada, se aburrirá o se pondrá triste. Esta interfaz suele mostrarse en una pantalla de tinta electrónica (e-ink), lo que le da ese aspecto característico de Tamagotchi cibernético.
+
+<br>
+
+- El ciclo de vida de un Pwnagotchi
+Cuando enciendes tu Pwnagotchi, atraviesa diferentes fases:
+
+  - ***Reconocimiento (Blind/Bored)***: Escanea los canales buscando puntos de acceso (APs) y clientes activos.
+
+  - ***Asociación y Ataque***: Cuando encuentra un objetivo viable, puede esperar pasivamente a que un cliente se conecte, o forzar la reconexión enviando tramas de desautenticación para capturar el 4-way handshake.
+
+  - ***Captura***: Al interceptar el handshake o PMKID, lo guarda en un archivo .pcap localmente. Este archivo es la "comida" que luego puedes extraer para intentar crackear la contraseña en otro equipo (usando herramientas como Hashcat).
+
+  - ***Socialización***: Si un Pwnagotchi detecta a otro cerca (usando paquetes dot11 personalizados), pueden "hablar" entre ellos, compartir información sobre el entorno y modificar sus comportamientos mutuamente.
+
+<br>
+<br>
+
 ## 🔎 Step by step
 
 ### 🛠️ Construction & Connections 
