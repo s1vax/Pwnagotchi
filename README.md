@@ -196,7 +196,9 @@ You can target a personal network with the pwnagotchi attack as a proof of use, 
 
 <br>
    
-   - En el primer inicio (tanto si conectamos por el puerto `USB` como por el puerto `PWR IN`, de la placa) el firmware va a tardar un poco debido a que esta generando las claves de configuracion y demas. Dara un aviso de esto en la pantalla.
+   - En el primer inicio (tanto si conectamos por el puerto `USB` como por el puerto `PWR IN`, de la placa) el firmware va a tardar un poco debido a que esta generando las claves de configuracion y demas. Dara un aviso de esto en la pantalla. 
+   
+   ⚠️ ***NOTE:*** Durante esta parte de inicializacion no se debe de desconectar el dispositivo para evitar errores.
 
 <br>
 
@@ -218,7 +220,7 @@ You can target a personal network with the pwnagotchi attack as a proof of use, 
 <br>
 
 ### ⚙️ Configuration
-Al inicio, cuando conectamos nuestro cable Micro USB a la Raspberry por el puerto `PWR IN` y con nuestro firmware cargado (o simplemente brindandole alimentacion a la Raspberry Pi con el UPS Hat), como dijimos, este dispositivo empezara a actuar sin control.
+Al inicio, cuando conectamos nuestro cable Micro USB a la Raspberry por el puerto `PWR IN` y con nuestro firmware cargado (o simplemente brindandole alimentacion a la Raspberry Pi con el UPS Hat), como dijimos, el Pwnagotchi empezara a actuar sin control.
 
 Para ello, en esta seccion, vamos a configurarlo con el objetivo de que realice operaciones de pruebas controladas y seguras (aunque lo conectemos por este puerto de alimentacion)
 
