@@ -35,11 +35,14 @@ You can target a personal network with the pwnagotchi attack as a proof of use, 
 
 ### 🛠️ Construction & Connections 
    - En primer lugar, soldaremos todos los pines de la Raspberry Pi Zero 2 W. Tener cuidado al soldar ya que los pines se consumen/derriten. Para ello, un metodo efectivo para soldar sin quemar todo en el proceso es el del siguiente video: https://www.youtube.com/watch?v=jYKzsLmMV6o
-   - Una vez hecho eso, le conectaremos al UPS Hat la bateria de LiPo. Luego, mediante los tornillos que nos vienen incluidos en el paquete de Waveshare, colocamos esta placa de alimentacion por debajo de la Raspberry Pi. Sobre el UPS Hat, 6 pines de la Raspberry Pi (del lado corto y soldado) deben hacer contacto y presion sobre los 6 pines retraibles que el UPS tiene. Con ello, pasaremos a verificar la conexion y la alimentacion para comprobar si la Raspberry Pi se encendera sin problemas.
-
-     ¿Como realizamos la verificacion?
+   - Una vez hecho eso, le conectaremos al UPS Hat la bateria de LiPo. Luego, mediante los tornillos que nos vienen incluidos en el paquete de Waveshare, colocamos esta placa de alimentacion por debajo de la Raspberry Pi. Sobre el UPS Hat, 6 pines de la Raspberry Pi (del lado corto y soldado de la placa) deben hacer contacto y presion sobre los 6 pines retraibles que el UPS tiene.
+   - Con ello montado, pasaremos a verificar la conexion y la alimentacion para comprobar si la Raspberry Pi se encendera sin problemas.
+      - ¿Como realizamos la verificacion?
+        - Medir la tension de la bateria
+        - Comprobar soldaduras de la Raspberry Pi Zero 2 W
+        - Comrpobar funcionamiento de la placa UPS Hat de Waveshare
    
-   - Concluido con lo anterior, pasamos a colocar la pantalla de tinta electronica (el conector de 8 pines, debe estar del mismo lado que los puertos de conexion de la Raspberry Pi)
+   - Concluido con lo anterior, pasamos a colocar la pantalla de tinta electronica. Para comprobar si hemos el conector de 8 pines, debe estar del mismo lado que los puertos de conexion de la Raspberry Pi)
 
 
 <br>
@@ -218,7 +221,7 @@ You can target a personal network with the pwnagotchi attack as a proof of use, 
 <br>
 
 ### ⚙️ Configuration
-Al inicio, cuando conectamos nuestro cable Micro USB a la Raspberry por el puerto `PWR IN`, con nuestro firmware cargado, como dijimos, este dispositivo empieza a actuar sin control.
+Al inicio, cuando conectamos nuestro cable Micro USB a la Raspberry por el puerto `PWR IN` y con nuestro firmware cargado, como dijimos, este dispositivo empezara a actuar sin control.
 
 Para ello, en esta seccion, vamos a configurarlo para realizar operaciones de pruebas controladas y seguras (aunque lo conectemos por este puerto de alimentacion)
 
