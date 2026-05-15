@@ -79,22 +79,23 @@ You can target a personal network with the pwnagotchi attack as a proof of use, 
      - Nos saldra un cartel de advertencia sobre que estamos cambiando el tipo de extension, le damos en `Ok`. Hasta aqui nuestro archivo adicional ya estara creado.
      - Como es un archivo nuevo, no tiene ninguna informacion, comando o contenido alguno en el. A continuacion vamos a agregarle el codigo siguiente:
 
-```     
-main.name = "pwnagotchi"
-main.lang = "en"
-main.whitelist = [
-  "TuRedWifi"
-]
+         ```     
+          main.name = "pwnagotchi"
+          main.lang = "en"
+          main.whitelist = [
+          "TuRedWifi"
+           ]
 
-ui.display.enabled = true
-ui.display.type = "waveshare_3" # o "waveshare_4", "waveshare_213d", etc.
-ui.display.color = "black"
-```
+           ui.display.enabled = true
+           ui.display.type = "waveshare_3" # o "waveshare_4", "waveshare_213d", etc.
+           ui.display.color = "black"
+         ```
 <br>
 
    - En adicion al archivo anterior, vamos a modificar otros dos archivos: `config.txt` y `cmdline.txt`
      - Para `config.txt`, eliminamos su codigo existente, y lo reemplazamos por:
-        - ```
+     
+          ```
            # For more options and information see
            # http://rpf.io/configtxt
            # Some settings may impact device functionality. See link above for details
@@ -107,70 +108,71 @@ ui.display.color = "black"
            #disable_overscan=1
 
            # uncomment the following to adjust overscan. Use positive numbers if console
-# goes off screen, and negative if there is too much border
-#overscan_left=16
-#overscan_right=16
-#overscan_top=16
-#overscan_bottom=16
+           # goes off screen, and negative if there is too much border
+           #overscan_left=16
+           #overscan_right=16
+           #overscan_top=16
+           #overscan_bottom=16
 
-# uncomment to force a console size. By default it will be display's size minus
-# overscan.
-#framebuffer_width=1280
-#framebuffer_height=720
+           # uncomment to force a console size. By default it will be display's size minus
+           # overscan.
+           #framebuffer_width=1280
+           #framebuffer_height=720
 
-# uncomment if hdmi display is not detected and composite is being output
-#hdmi_force_hotplug=1
+           # uncomment if hdmi display is not detected and composite is being output
+           #hdmi_force_hotplug=1
 
-# uncomment to force a specific HDMI mode (this will force VGA)
-#hdmi_group=1
-#hdmi_mode=1
+           # uncomment to force a specific HDMI mode (this will force VGA)
+           #hdmi_group=1
+           #hdmi_mode=1
+ 
+           # uncomment to force a HDMI mode rather than DVI. This can make audio work in
+           # DMT (computer monitor) modes
+           #hdmi_drive=2
 
-# uncomment to force a HDMI mode rather than DVI. This can make audio work in
-# DMT (computer monitor) modes
-#hdmi_drive=2
+           # uncomment to increase signal to HDMI, if you have interference, blanking, or
+           # no display
+           #config_hdmi_boost=4
 
-# uncomment to increase signal to HDMI, if you have interference, blanking, or
-# no display
-#config_hdmi_boost=4
+           # uncomment for composite PAL
+           #sdtv_mode=2
 
-# uncomment for composite PAL
-#sdtv_mode=2
+           #uncomment to overclock the arm. 700 MHz is the default.
+           #arm_freq=800
 
-#uncomment to overclock the arm. 700 MHz is the default.
-#arm_freq=800
+           # Uncomment some or all of these to enable the optional hardware interfaces
+           #dtparam=i2c_arm=on
+           #dtparam=i2s=on
+           #dtparam=spi=on
 
-# Uncomment some or all of these to enable the optional hardware interfaces
-#dtparam=i2c_arm=on
-#dtparam=i2s=on
-#dtparam=spi=on
+           # Uncomment this to enable infrared communication.
+           #dtoverlay=gpio-ir,gpio_pin=17
+           #dtoverlay=gpio-ir-tx,gpio_pin=18
 
-# Uncomment this to enable infrared communication.
-#dtoverlay=gpio-ir,gpio_pin=17
-#dtoverlay=gpio-ir-tx,gpio_pin=18
+           # Additional overlays and parameters are documented /boot/overlays/README
 
-# Additional overlays and parameters are documented /boot/overlays/README
+           # Enable audio (loads snd_bcm2835)
+           dtparam=audio=on
 
-# Enable audio (loads snd_bcm2835)
-dtparam=audio=on
+           [pi4]
+           # Enable DRM VC4 V3D driver on top of the dispmanx display stack
+           dtoverlay=vc4-fkms-v3d
+           max_framebuffers=2
 
-[pi4]
-# Enable DRM VC4 V3D driver on top of the dispmanx display stack
-dtoverlay=vc4-fkms-v3d
-max_framebuffers=2
-
-[all]
-#dtoverlay=vc4-fkms-v3d
-dtoverlay=dwc2
-dtoverlay=spi1-3cs
-dtoverlay=pwm-2chan,pin=12,func=4,pin2=13,func2=4
-dtparam=spi=on
-dtparam=i2c_arm=on
-dtparam=i2c1=on
-gpu_mem=16
+           [all]
+           #dtoverlay=vc4-fkms-v3d
+           dtoverlay=dwc2
+           dtoverlay=spi1-3cs
+           dtoverlay=pwm-2chan,pin=12,func=4,pin2=13,func2=4
+           dtparam=spi=on
+           dtparam=i2c_arm=on
+           dtparam=i2c1=on
+           gpu_mem=16
 
         ```
           
      - Para `cmdline.txt`, eliminamos su codigo existente, y lo reemplazamos por:
+     
        ```
        console=serial0,115200 console=tty1 root=/dev/mmcblk0p2 rootfstype=ext4 fsck.repair=yes rootwait modules-load=dwc2,g_ether
        ```
