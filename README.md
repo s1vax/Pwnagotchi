@@ -34,7 +34,8 @@ You can target a personal network with the pwnagotchi attack as a proof of use, 
 ## ❓ ¿What is Pwnagotchi & How it works?
 - `Pwnagotchi` is a virtual pet designed for cybersecurity and hardware hacking. Essentially, it's a deep reinforcement learning agent based on the A2C (Advantage Actor-Critic) architecture. Its primary function is to audit wireless networks by "eating" the handshakes and PMKIDs of WPA/WPA2 networks it encounters in its environment.
 
-  A diferencia de las herramientas de auditoría tradicionales donde el usuario debe configurar manualmente los parámetros del ataque, Pwnagotchi aprende de su entorno de radiofrecuencia (RF) y ajusta su comportamiento de    forma dinámica para maximizar la captura de material criptográfico.
+   Unlike traditional auditing tools where the user must manually configure attack parameters, Pwnagotchi learns from its radio frequency (RF) environment and dynamically adjusts its behavior to maximize the capture of       cryptographic material.
+  
 <br>
 
 - ¿Cómo funciona?
