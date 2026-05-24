@@ -41,9 +41,9 @@ You can target a personal network with the pwnagotchi attack as a proof of use, 
 - ¿How it works?
 To achieve its goal, Pwnagotchi combines low-power hardware (usually a Raspberry Pi Zero W or Zero 2 W) with a very powerful software stack:
 
-  - ***The Engine (Bettercap)***: El núcleo de sus capacidades ofensivas y de escaneo es bettercap. Pwnagotchi utiliza la API de esta herramienta para interactuar con la interfaz de red en modo monitor, inyectar paquetes (como ataques de desautenticación) y capturar el tráfico.
+  - ***The Engine (Bettercap)***: At the heart of its offensive and scanning capabilities is BetterCap. Pwnagotchi uses this tool's API to interact with the network interface in monitor mode, inject packets (such as for deauthentication attacks), and capture traffic.
 
-  - ***El Cerebro (Inteligencia Artificial)***: Aquí es donde entra el modelo A2C. Pwnagotchi evalúa constantemente su entorno y toma decisiones sobre qué canales escanear, cuánto tiempo permanecer en cada uno y qué tipo de paquetes de desautenticación enviar a los clientes conectados. Si sus decisiones resultan en la captura exitosa de un handshake (su recompensa), la red neuronal ajusta sus pesos para favorecer ese comportamiento en el futuro.
+  - ***The Brain (Artificial intelligence)***: Aquí es donde entra el modelo A2C. Pwnagotchi evalúa constantemente su entorno y toma decisiones sobre qué canales escanear, cuánto tiempo permanecer en cada uno y qué tipo de paquetes de desautenticación enviar a los clientes conectados. Si sus decisiones resultan en la captura exitosa de un handshake (su recompensa), la red neuronal ajusta sus pesos para favorecer ese comportamiento en el futuro.
 
   - ***La Personalidad (UI y Estados)***: Su estado de ánimo refleja lo que está sucediendo a nivel de red y de hardware. Si está capturando muchos handshakes, estará feliz. Si hay poco tráfico o no logra capturar nada, se aburrirá o se pondrá triste. Esta interfaz suele mostrarse en una pantalla de tinta electrónica (e-ink), lo que le da ese aspecto característico de Tamagotchi cibernético.
 
