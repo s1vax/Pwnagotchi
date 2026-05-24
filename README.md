@@ -38,10 +38,10 @@ You can target a personal network with the pwnagotchi attack as a proof of use, 
   
 <br>
 
-- ¿Cómo funciona?
-Para lograr su cometido, Pwnagotchi combina hardware de bajo consumo (generalmente una Raspberry Pi Zero W o Zero 2 W) con un stack de software muy potente:
+- ¿How it works?
+To achieve its goal, Pwnagotchi combines low-power hardware (usually a Raspberry Pi Zero W or Zero 2 W) with a very powerful software stack:
 
-  - ***El Motor (Bettercap)***: El núcleo de sus capacidades ofensivas y de escaneo es bettercap. Pwnagotchi utiliza la API de esta herramienta para interactuar con la interfaz de red en modo monitor, inyectar paquetes (como ataques de desautenticación) y capturar el tráfico.
+  - ***The Engine (Bettercap)***: El núcleo de sus capacidades ofensivas y de escaneo es bettercap. Pwnagotchi utiliza la API de esta herramienta para interactuar con la interfaz de red en modo monitor, inyectar paquetes (como ataques de desautenticación) y capturar el tráfico.
 
   - ***El Cerebro (Inteligencia Artificial)***: Aquí es donde entra el modelo A2C. Pwnagotchi evalúa constantemente su entorno y toma decisiones sobre qué canales escanear, cuánto tiempo permanecer en cada uno y qué tipo de paquetes de desautenticación enviar a los clientes conectados. Si sus decisiones resultan en la captura exitosa de un handshake (su recompensa), la red neuronal ajusta sus pesos para favorecer ese comportamiento en el futuro.
 
