@@ -77,11 +77,21 @@ To achieve its goal, Pwnagotchi combines low-power hardware (usually a Raspberry
           - The unit should be sad, but there are enough friendly units nearby.
           - The unit should be lonely, but there are enough friendly units nearby.
 
-      - (ᵔ◡◡ᵔ) excited:Your Pwnagotchi is excited in one of the following cases:
+      - (ᵔ◡◡ᵔ) excited: Your Pwnagotchi is excited in one of the following cases:
 
           - The number of epochs with some activity is greater or equal than personality.excited_num_epochs.
           - Randomly if a unit with a high bond level is met.
           - If you have unread PwnMAIL messages on that unit.
+
+      - (✜‿‿✜) smart: Randomly if a unit with a med-high bond level is met.
+
+      - (♥‿‿♥) friendly: Randomly if a unit with a high bond level is met.
+
+      - (☼‿‿☼) motivated: Your Pwnagotchi just scored the best reward level in its existence or just met a unit with a high bond.
+
+      - (≖__≖) demotivated: Your Pwnagotchi just scored the worst reward level in its existence.
+
+      - (-__-) bored: 
 
       
 
