@@ -1,4 +1,4 @@
-# >°-°< Pwnagotchi 
+# (◕‿‿◕) Pwnagotchi 
 
 <p align="center">
 <img width="400" height="400" alt="WhatsApp Image 2026-04-27 at 12 16 46" src="https://github.com/user-attachments/assets/7599c37a-0f94-436d-b2f4-92932b664243" />
@@ -38,81 +38,84 @@ You can target a personal network with the pwnagotchi attack as a proof of use, 
   
 <br>
 
-- ¿How it works?
-To achieve its goal, Pwnagotchi combines low-power hardware (usually a Raspberry Pi Zero W or Zero 2 W) with a very powerful software stack:
+- `¿How it works?`
+
+   To achieve its goal, Pwnagotchi combines low-power hardware (usually a Raspberry Pi Zero W or Zero 2 W) with a very         powerful software stack:
 
   - ***The Engine (Bettercap)***: At the heart of its offensive and scanning capabilities is BetterCap. Pwnagotchi uses this tool's API to interact with the network interface in monitor mode, inject packets (such as for deauthentication attacks), and capture traffic.
 
   - ***The Brain (Artificial intelligence)***: This is where the A2C model comes in. Pwnagotchi constantly evaluates its environment and makes decisions about which channels to scan, how long to stay on each, and what kind of deauthentication packets to send to connected clients. If its decisions result in the successful capture of a handshake (its reward), the neural network adjusts its weights to favor that behavior in the future.
+  
+  - ***¿How handshakes are used in the WPA/WPA2?***
+  
+       <p align="center">
+       <img width="550" height="500" alt="image (1)" src="https://github.com/user-attachments/assets/23d633b5-5210-40a5-8131-3499a48a613b" />
+       </p>
 
   - ***Personality (UI and States)***: Its mood reflects what's happening at the network and hardware levels. If it's capturing a lot of handshakes, it will be happy. If there's little traffic or it's not capturing any, it will get bored or sad. This interface is usually displayed on an e-ink screen, giving it that characteristic cyber Tamagotchi look.
   
     👉 ***Its moods are:***
-    
-      - ***(⇀‿‿↼) sleeping***: This is the state the unit will start from. Moreover, from time to time your Pwnagotchi will also perform naps of a few seconds while hopping among WiFi channels
-      
-      - ***(≖‿‿≖) awakening***: The unit is in the last seconds of its nap
-      
-      - ***(◕‿‿◕) awake / normal***: This face is the neutral awake status of the unit. It’ll be used to smooth the transition between other moods and in general when there’s no external cause of either positive or negative moods. It can also be used, randomly, when another unit is encountered for the first time (each unit keeps a record of all the units it met)
-      
-      - ***( ⚆⚆), (☉☉ ) observing (neutral mood)***: Your Pwnagotchi is waiting and observing what bettercap can find on all the channels it’s hopping on
-      
-      - ( ◕‿◕), (◕‿◕ ) observing (happy): When there’s one or multiple units nearby and their cumulative bond counter is greater or equal than the personality.bond_encounters_factor, this will be the unit’s face while observing
 
-      - (°▃▃°) intense: The unit is sending an association frame to an access point in order to force it to leak the PMKID
-
-      - (⌐■_■) cool: The unit is deauthenticating a client station from an access point. This face can also be picked randomly when meeting another unit for the first time
+  
+      - `(⇀‿‿↼) sleeping`: This is the state the unit will start from. Moreover, from time to time your Pwnagotchi will also perform naps of a few seconds while hopping among WiFi channels
       
-      - (•‿‿•) happy: Your Pwnagotchi is happy in one of the following cases:
+      - `(≖‿‿≖) awakening`: The unit is in the last seconds of its nap
+      
+      - `(◕‿‿◕) awake / normal`: This face is the neutral awake status of the unit. It’ll be used to smooth the transition between other moods and in general when there’s no external cause of either positive or negative moods. It can also be used, randomly, when another unit is encountered for the first time (each unit keeps a record of all the units it met)
+      
+      - `( ⚆⚆), (☉☉ ) observing (neutral mood)`: Your Pwnagotchi is waiting and observing what bettercap can find on all the channels it’s hopping on
+      
+      - `( ◕‿◕), (◕‿◕ ) observing (happy)`: When there’s one or multiple units nearby and their cumulative bond counter is greater or equal than the personality.bond_encounters_factor, this will be the unit’s face while observing
+
+      - `(°▃▃°) intense`: The unit is sending an association frame to an access point in order to force it to leak the PMKID
+
+      - `(⌐■_■) cool`: The unit is deauthenticating a client station from an access point. This face can also be picked randomly when meeting another unit for the first time
+      
+      - `(•‿‿•) happy`: Your Pwnagotchi is happy in one of the following cases:
 
           - The AI just finished loading and it’s ready
           - Valid key material for an access point has just been captured
           - In MANU mode (MANUAL MODE), if the last session was short or if any handshake has been captured during it
           - When another unit is met and the bond level is high enough
 
-      - (^‿‿^) grateful: Your Pwnagotchi is grateful in one of the following cases:
+      - `(^‿‿^) grateful`: Your Pwnagotchi is grateful in one of the following cases:
 
           - The cumulative bond level of nearby units is at least five times the personality.bond_encounters_factor
           - The unit should be bored, but there are enough friendly units nearby
           - The unit should be sad, but there are enough friendly units nearby
           - The unit should be lonely, but there are enough friendly units nearby
 
-      - (ᵔ◡◡ᵔ) excited: Your Pwnagotchi is excited in one of the following cases:
+      - `(ᵔ◡◡ᵔ) excited`: Your Pwnagotchi is excited in one of the following cases:
 
           - The number of epochs with some activity is greater or equal than personality.excited_num_epochs
           - Randomly if a unit with a high bond level is met
           - If you have unread PwnMAIL messages on that unit
 
-      - (✜‿‿✜) smart: Randomly if a unit with a med-high bond level is met
+      - `(✜‿‿✜) smart`: Randomly if a unit with a med-high bond level is met
 
-      - (♥‿‿♥) friendly: Randomly if a unit with a high bond level is met
+      - `(♥‿‿♥) friendly`: Randomly if a unit with a high bond level is met
 
-      - (☼‿‿☼) motivated: Your Pwnagotchi just scored the best reward level in its existence or just met a unit with a high bond
+      - `(☼‿‿☼) motivated`: Your Pwnagotchi just scored the best reward level in its existence or just met a unit with a high bond
 
-      - (≖__≖) demotivated: Your Pwnagotchi just scored the worst reward level in its existence
+      - `(≖__≖) demotivated`: Your Pwnagotchi just scored the worst reward level in its existence
 
-      - (-__-) bored: If there are no friendly units around and the amount of consecutive inactive epochs reached personality.bored_num_epochs
+      - `(-__-) bored`: If there are no friendly units around and the amount of consecutive inactive epochs reached personality.bored_num_epochs
 
-      - (╥☁╥ ) sad: If there are no friendly units around and the amount of consecutive inactive epochs reached personality.sad_num_epochs
+      - `(╥☁╥ ) sad`: If there are no friendly units around and the amount of consecutive inactive epochs reached personality.sad_num_epochs
 
-      - (._.) lonely: If your Pwnagotchi just lost contact with a friendly unit that was nearby, or if the amount of missed interactions with access points or client stations (the amount of times it tried to send some type of packet but missed the target because it isn’t in range anymore) is greater or equal than personality.max_misses_for_recon. And there are no friendly units around
+      - `(.__.) lonely`: If your Pwnagotchi just lost contact with a friendly unit that was nearby, or if the amount of missed interactions with access points or client stations (the amount of times it tried to send some type of packet but missed the target because it isn’t in range anymore) is greater or equal than personality.max_misses_for_recon. And there are no friendly units around
 
-      - (☓‿‿☓) broken: Your unit is rebooting either as a coping strategy for the blindness bug, or after installing an update
+      - `(☓‿‿☓) broken`: Your unit is rebooting either as a coping strategy for the blindness bug, or after installing an update
 
-      - (#__#) debugging: Used for debug and test messages on screen
+      - `(#__#) debugging`: Used for debug and test messages on screen
+   
 
-
-  - ***¿How handshakes are used in the WPA/WPA2?***
-  
-      <p align="center">
-      <img width="550" height="500" alt="image (1)" src="https://github.com/user-attachments/assets/23d633b5-5210-40a5-8131-3499a48a613b" />
-      </p>
 
 
 <br>
 
-- The life cycle of a Pwnagotchi
-When you turn on your Pwnagotchi, it goes through different phases:
+- `The life cycle of a Pwnagotchi
+When you turn on your Pwnagotchi, it goes through different phases:`
 
   - ***Recognition (Blind/Bored)***: Scan the channels looking for Access Points (APs) and active clients.
   
