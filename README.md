@@ -66,8 +66,10 @@ When you turn on your Pwnagotchi, it goes through different phases:
 ## 🔎 Step by step
 
 ### 🛠️ Construction & Connections 
-   - En primer lugar, soldaremos todos los pines de la Raspberry Pi Zero 2 W. Tener cuidado al soldar ya que los pines se consumen/derriten. Para ello, un metodo efectivo para soldar sin quemar todo en el proceso es el del siguiente video: https://www.youtube.com/watch?v=jYKzsLmMV6o
+   - First, we'll solder all the pins of the Raspberry Pi Zero 2W. Be careful when soldering, as the pins can corrode/melt. An effective method for soldering without burning everything in the process is shown in the following video: https://www.youtube.com/watch?v=jYKzsLmMV6o
+   
    - Una vez hecho eso, le conectaremos al UPS Hat la bateria de LiPo. Luego, mediante los tornillos que nos vienen incluidos en el paquete de Waveshare, colocamos esta placa de alimentacion por debajo de la Raspberry Pi. Sobre el UPS Hat, 6 pines de la Raspberry Pi (del lado corto y soldado de la placa) deben hacer contacto y presion sobre los 6 pines retraibles que el UPS tiene.
+   
    - Con ello montado, pasaremos a verificar la conexion y la alimentacion, para comprobar si la Raspberry Pi se encendera sin problemas.
    
       - ¿Como realizamos la verificacion?
