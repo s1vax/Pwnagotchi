@@ -58,8 +58,8 @@ When you turn on your Pwnagotchi, it goes through different phases:
 
   - ***Capture***: By intercepting the handshake or PMKID, it saves it to a local .pcap file. This file is the "food" that you can then extract to try to crack the password on another computer (using tools like Hashcat).
 
-  - ***Socialización***: Si un Pwnagotchi detecta a otro cerca (usando paquetes dot11 personalizados), pueden "hablar" entre ellos, compartir información sobre el entorno y modificar sus comportamientos mutuamente.
-
+  - ***Socialization***: If one Pwnagotchi detects another nearby (using custom dot11 packets), they can "talk" to each other, share information about the environment, and modify each other's behavior.
+  
 <br>
 <br>
 
