@@ -56,7 +56,7 @@ When you turn on your Pwnagotchi, it goes through different phases:
   
   - ***Association and Attack***: When it finds a viable target, it can passively wait for a client to connect, or force reconnection by sending deauthentication frames to capture the 4-way handshake.
 
-  - ***Captura***: Al interceptar el handshake o PMKID, lo guarda en un archivo .pcap localmente. Este archivo es la "comida" que luego puedes extraer para intentar crackear la contraseña en otro equipo (usando herramientas como Hashcat).
+  - ***Capture***: By intercepting the handshake or PMKID, it saves it to a local .pcap file. This file is the "food" that you can then extract to try to crack the password on another computer (using tools like Hashcat).
 
   - ***Socialización***: Si un Pwnagotchi detecta a otro cerca (usando paquetes dot11 personalizados), pueden "hablar" entre ellos, compartir información sobre el entorno y modificar sus comportamientos mutuamente.
 
