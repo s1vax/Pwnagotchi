@@ -49,13 +49,13 @@ To achieve its goal, Pwnagotchi combines low-power hardware (usually a Raspberry
   
     👉 ***Its moods are:***
     
-      - (⇀‿‿↼) sleeping: This is the state the unit will start from. Moreover, from time to time your Pwnagotchi will also perform naps of a few seconds while hopping among WiFi channels
+      - ***(⇀‿‿↼) sleeping***: This is the state the unit will start from. Moreover, from time to time your Pwnagotchi will also perform naps of a few seconds while hopping among WiFi channels
       
-      - (≖‿‿≖) awakening: The unit is in the last seconds of its nap
+      - ***(≖‿‿≖) awakening***: The unit is in the last seconds of its nap
       
-      - (◕‿‿◕) awake / normal: This face is the neutral awake status of the unit. It’ll be used to smooth the transition between other moods and in general when there’s no external cause of either positive or negative moods. It can also be used, randomly, when another unit is encountered for the first time (each unit keeps a record of all the units it met)
+      - ***(◕‿‿◕) awake / normal***: This face is the neutral awake status of the unit. It’ll be used to smooth the transition between other moods and in general when there’s no external cause of either positive or negative moods. It can also be used, randomly, when another unit is encountered for the first time (each unit keeps a record of all the units it met)
       
-      - ( ⚆⚆), (☉☉ ) observing (neutral mood): Your Pwnagotchi is waiting and observing what bettercap can find on all the channels it’s hopping on
+      - ***( ⚆⚆), (☉☉ ) observing (neutral mood)***: Your Pwnagotchi is waiting and observing what bettercap can find on all the channels it’s hopping on
       
       - ( ◕‿◕), (◕‿◕ ) observing (happy): When there’s one or multiple units nearby and their cumulative bond counter is greater or equal than the personality.bond_encounters_factor, this will be the unit’s face while observing
 
