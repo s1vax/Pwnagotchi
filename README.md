@@ -46,7 +46,8 @@ To achieve its goal, Pwnagotchi combines low-power hardware (usually a Raspberry
   - ***The Brain (Artificial intelligence)***: This is where the A2C model comes in. Pwnagotchi constantly evaluates its environment and makes decisions about which channels to scan, how long to stay on each, and what kind of deauthentication packets to send to connected clients. If its decisions result in the successful capture of a handshake (its reward), the neural network adjusts its weights to favor that behavior in the future.
 
   - ***Personality (UI and States)***: Its mood reflects what's happening at the network and hardware levels. If it's capturing a lot of handshakes, it will be happy. If there's little traffic or it's not capturing any, it will get bored or sad. This interface is usually displayed on an e-ink screen, giving it that characteristic cyber Tamagotchi look.
-    Its moods are:
+  
+    👉 ***Its moods are:***
     
       - (⇀‿‿↼) sleeping: This is the state the unit will start from. Moreover, from time to time your Pwnagotchi will also perform naps of a few seconds while hopping among WiFi channels
       
