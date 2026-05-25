@@ -49,8 +49,8 @@ To achieve its goal, Pwnagotchi combines low-power hardware (usually a Raspberry
 
 <br>
 
-- El ciclo de vida de un Pwnagotchi
-Cuando enciendes tu Pwnagotchi, atraviesa diferentes fases:
+- The life cycle of a Pwnagotchi
+When you turn on your Pwnagotchi, it goes through different phases:
 
   - ***Reconocimiento (Blind/Bored)***: Escanea los canales buscando puntos de acceso (APs) y clientes activos.
 
