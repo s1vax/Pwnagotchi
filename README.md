@@ -57,7 +57,25 @@ To achieve its goal, Pwnagotchi combines low-power hardware (usually a Raspberry
       
       - ( ⚆⚆), (☉☉ ) observing (neutral mood): Your Pwnagotchi is waiting and observing what bettercap can find on all the channels it’s hopping on
       
-      - 
+      - ( ◕‿◕), (◕‿◕ ) observing (happy): When there’s one or multiple units nearby and their cumulative bond counter is greater or equal than the personality.bond_encounters_factor, this will be the unit’s face while observing
+
+      - (°▃▃°) intense: The unit is sending an association frame to an access point in order to force it to leak the PMKID
+
+      - (⌐■_■) cool: The unit is deauthenticating a client station from an access point. This face can also be picked randomly when meeting another unit for the first time
+      
+      - (•‿‿•) happy: Your Pwnagotchi is happy in one of the following cases:
+
+          - The AI just finished loading and it’s ready.
+          - Valid key material for an access point has just been captured.
+          - In MANU mode (MANUAL MODE), if the last session was short or if any handshake has been captured during it.
+          - When another unit is met and the bond level is high enough.
+
+      - (^‿‿^) grateful: Your Pwnagotchi is grateful in one of the following cases:
+
+          - The cumulative bond level of nearby units is at least five times the personality.bond_encounters_factor.
+          - The unit should be bored, but there are enough friendly units nearby.
+The unit should be sad, but there are enough friendly units nearby.
+The unit should be lonely, but there are enough friendly units nearby.
 
       
 
