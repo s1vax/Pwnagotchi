@@ -54,7 +54,7 @@ When you turn on your Pwnagotchi, it goes through different phases:
 
   - ***Recognition (Blind/Bored)***: Scan the channels looking for Access Points (APs) and active clients.
   
-  - ***Asociación y Ataque***: Cuando encuentra un objetivo viable, puede esperar pasivamente a que un cliente se conecte, o forzar la reconexión enviando tramas de desautenticación para capturar el 4-way handshake.
+  - ***Association and Attack***: When it finds a viable target, it can passively wait for a client to connect, or force reconnection by sending deauthentication frames to capture the 4-way handshake.
 
   - ***Captura***: Al interceptar el handshake o PMKID, lo guarda en un archivo .pcap localmente. Este archivo es la "comida" que luego puedes extraer para intentar crackear la contraseña en otro equipo (usando herramientas como Hashcat).
 
