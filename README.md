@@ -74,8 +74,10 @@ To achieve its goal, Pwnagotchi combines low-power hardware (usually a Raspberry
 
           - The cumulative bond level of nearby units is at least five times the personality.bond_encounters_factor.
           - The unit should be bored, but there are enough friendly units nearby.
-The unit should be sad, but there are enough friendly units nearby.
-The unit should be lonely, but there are enough friendly units nearby.
+          - The unit should be sad, but there are enough friendly units nearby.
+          - The unit should be lonely, but there are enough friendly units nearby.
+
+      - (ᵔ◡◡ᵔ) excited:
 
       
 
