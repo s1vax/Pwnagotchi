@@ -52,8 +52,8 @@ To achieve its goal, Pwnagotchi combines low-power hardware (usually a Raspberry
 - The life cycle of a Pwnagotchi
 When you turn on your Pwnagotchi, it goes through different phases:
 
-  - ***Reconocimiento (Blind/Bored)***: Escanea los canales buscando puntos de acceso (APs) y clientes activos.
-
+  - ***Recognition (Blind/Bored)***: Scan the channels looking for Access Points (APs) and active clients.
+  
   - ***Asociación y Ataque***: Cuando encuentra un objetivo viable, puede esperar pasivamente a que un cliente se conecte, o forzar la reconexión enviando tramas de desautenticación para capturar el 4-way handshake.
 
   - ***Captura***: Al interceptar el handshake o PMKID, lo guarda en un archivo .pcap localmente. Este archivo es la "comida" que luego puedes extraer para intentar crackear la contraseña en otro equipo (usando herramientas como Hashcat).
