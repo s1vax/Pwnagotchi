@@ -47,6 +47,13 @@ To achieve its goal, Pwnagotchi combines low-power hardware (usually a Raspberry
 
   - ***Personality (UI and States)***: Its mood reflects what's happening at the network and hardware levels. If it's capturing a lot of handshakes, it will be happy. If there's little traffic or it's not capturing any, it will get bored or sad. This interface is usually displayed on an e-ink screen, giving it that characteristic cyber Tamagotchi look.
 
+  - ***¿How handshakes are used in the WPA/WPA2?***
+  
+      <p align="center">
+      <img width="550" height="500" alt="image (1)" src="https://github.com/user-attachments/assets/23d633b5-5210-40a5-8131-3499a48a613b" />
+      </p>
+
+
 <br>
 
 - The life cycle of a Pwnagotchi
