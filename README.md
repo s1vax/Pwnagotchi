@@ -132,26 +132,26 @@ When you turn on your Pwnagotchi, it goes through different phases:`
 
 ### 🛠️ Construction & Connections 
    - First, we'll solder all the pins of the Raspberry Pi Zero 2W. Be careful when soldering, as the pins can corrode/melt. An effective method for soldering without burning everything in the process is shown in the following video: https://www.youtube.com/watch?v=jYKzsLmMV6o
-   
-   - Una vez hecho eso, le conectaremos al UPS Hat la bateria de LiPo. Luego, mediante los tornillos que nos vienen incluidos en el paquete de Waveshare, colocamos esta placa de alimentacion por debajo de la Raspberry Pi. Sobre el UPS Hat, 6 pines de la Raspberry Pi (del lado corto y soldado de la placa) deben hacer contacto y presion sobre los 6 pines retraibles que el UPS tiene.
-   
-   - Con ello montado, pasaremos a verificar la conexion y la alimentacion, para comprobar si la Raspberry Pi se encendera sin problemas.
+     
+   - Como paso siguiente, verificamos el sistema de alimentacion para el pwnagotchi:
    
       - ¿Como realizamos la verificacion?
       
-        - Medir la tension de la bateria LiPo
+        - `Medir la tension de la bateria LiPo`
           - Utilizando un multimetro, verificaremos la tension de la bateria LiPo de 3.7v.
           - Conectamos las puntas del multimetro en sus respectivos conectores del propio multimetro (cable negro en `COM`, y cable rojo en `V, Ω, Hz, °C, ...`).
           - Luego ponemos la llave selectora del multimetro en `V---` (voltaje o tension continua), y en el valor `6v`.
           - Y por ultimo medimos. Colocamos el `cable rojo` del multimetro en la parte `roja o positiva` de la bateria, y el `cable negro` del multimetro en la parte `negra o negativa` de la bateria.
         
-        - Comprobar soldaduras de la Raspberry Pi Zero 2 W
+        - `Comprobar soldaduras de la Raspberry Pi Zero 2 W`
         
-        - Comprobar funcionamiento de la placa UPS Hat de Waveshare 
-          - Conectar la bateria LiPo a la placa UPS (si no las teniamos conectadas).
+        - `Comprobar funcionamiento de la placa UPS Hat de Waveshare` 
+          - Conectar la bateria LiPo a la placa UPS (si no las teniamos conectada).
           - Luego, debemos colocar el interruptor en `ON` de dicha placa.
-          - Por medio de un cable `USB C` a `USB A`, conectaremos la placa UPS a nuestra PC. Cuando realicemos esto, se deberia encender un led rojo en la placa UPS, a la cual deberemos de dejar prendida unos segundos, y la             desconectamos. 
+          - Por medio de un cable `USB C` a `USB A`, conectaremos la placa UPS a nuestra PC. Cuando realicemos esto, se deberia encender un led rojo en la placa UPS, a la cual deberemos de dejar prendida unos segundos, y              la desconectamos. 
           - Finalmente, bajamos el interruptor a `OFF` y prendemos nuevamente nuestra placa UPS Hat con el interruptor en `ON` (esto con el fin de hacer un reinicio), y ya deberia ser capaz de brindar alimentacion por su              cuenta.
+
+   - Una vez verificado el sistema de fuente de alimentacion, mediante los tornillos que nos vienen incluidos en el paquete de Waveshare, colocamos el UPS Hat por debajo de la Raspberry Pi. Sobre el esta placa de alimentacion, 6 pines de la Raspberry Pi (del lado de los pines cortos y soldados, de la placa) deben hacer contacto y presion sobre los 6 pines retraibles que el UPS tiene.
    
    - Concluido con lo anterior, pasamos a colocar la pantalla de tinta electronica. Para comprobar si la hemos colocado correctamente, el conector de 8 pines de esta pantalla, debe estar en paralelo o del mismo                 lado, que los puertos de conexion de la Raspberry Pi (los cuales son: `USB`, `Mini HDMI` y `PWR IN`).
 
