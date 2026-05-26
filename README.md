@@ -185,8 +185,8 @@ When you turn on your Pwnagotchi, it goes through different phases:`
    
       - ¿How do we add this file?
         - To do this, we will create a common text file (give it any name).
-        - Luego, debemos configurar la visualizacion de archivos en nuestra carpeta de disco de Windows 11. Iremos a `View`, luego seleccionamos en ese menu desplegable a `Show`, y por ultimo a `File name extensions`.
-        - Con esta configuracion, veremos todas las extensiones de nuestros archivos en esa carpeta de disco.
+        - Next, we need to configure the file display in our Windows 11 disk folder. We'll go to `View`, then select `Show` from the drop-down menu, and finally `File name extensions`.
+        - With this configuration, we will see all the extensions of our files in that disk folder.
         - Entonces, lo que haremos es, seleccionar nuestro archivo de texto creado, darle click derecho y luego en `Rename`. Aqui seleccionamos todo, incluyendo la extension y colocamos: `config.toml`.
         - Nos saldra un cartel de advertencia sobre que estamos cambiando el tipo de extension, le damos en `Ok`. Hasta aqui nuestro archivo adicional ya estara creado.
         - Como es un archivo nuevo, no tiene ninguna informacion, comando o contenido alguno en el. A continuacion vamos a agregarle el codigo siguiente:
