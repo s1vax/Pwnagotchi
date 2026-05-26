@@ -310,11 +310,11 @@ When you turn on your Pwnagotchi, it goes through different phases:`
    
    - On the first boot (whether connected via the `USB` port or the motherboard's `PWR IN` port), the firmware will take a little while to load because it's generating the configuration keys and other information. A notification will appear on the screen during this process.
    
-   ⚠️ ***NOTE:*** Durante esta parte de inicializacion no se debe de desconectar el dispositivo para evitar errores.
+   ⚠️ ***NOTE:*** During this initialization phase, the device should not be disconnected to avoid errors.
 
 <br>
 
-   - Luego de que se haya inicializado, cuando lo desconectemos, y volvamos a conectar, comenzara a correr normalmente y mas rapido en el inicio.
+   - After it has initialized, when we disconnect it and reconnect it, it will start running normally and faster at startup.
 
 <br>
 
