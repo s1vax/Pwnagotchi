@@ -137,9 +137,9 @@ When you turn on your Pwnagotchi, it goes through different phases:`
    
       - ¿How do we perform the verification?
       
-        - `Medir la tension de la bateria LiPo`
-          - Utilizando un multimetro, verificaremos la tension de la bateria LiPo de 3.7v.
-          - Conectamos las puntas del multimetro en sus respectivos conectores del propio multimetro (cable negro en `COM`, y cable rojo en `V, Ω, Hz, °C, ...`).
+        - `Measure the voltage of the LiPo battery`
+          - Using a multimeter we will verify the voltage of the 3.7v LiPo battery.
+          - We connect the multimeter probes to their respective connectors on the multimeter itself (black wire to `COM`, and red wire to `V, Ω, Hz, °C, ...`).
           - Luego ponemos la llave selectora del multimetro en `V---` (voltaje o tension continua), y en el valor `6v`.
           - Y por ultimo medimos. Colocamos el `cable rojo` del multimetro en la parte `roja o positiva` de la bateria, y el `cable negro` del multimetro en la parte `negra o negativa` de la bateria.
         
