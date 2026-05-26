@@ -286,12 +286,12 @@ When you turn on your Pwnagotchi, it goes through different phases:`
 
 <br>
 
-   - Por ultimo, haremos que nuestro Pwnagotchi sea portatil mediante el uso del UPS Hat de Waveshare. Simplemente ponemos el interruptor de esta placa en `ON`.
+   - Finally, we'll make our Pwnagotchi portable using the Waveshare Hat UPS. Simply turn the switch on this board to `ON`.
 
 
 <br>
 
-   - Y listo ✅ Ya tendremos nuestro dispositivo de hacking Pwnagotchi funcionando!
+   - And that's it! ✅ We now have our Pwnagotchi hacking device up and running!
    
 <br>
 
