@@ -304,11 +304,11 @@ When you turn on your Pwnagotchi, it goes through different phases:`
    
 <br>
      
-   - Si no hay errores, ya podran ver el firmware de Pwnagotchi funcionando (y su carita tierna pero feroz).
+   - If there are no errors, you will now be able to see Pwnagotchi's firmware working (and its cute but fierce face).
 
 <br>
    
-   - En el primer inicio (tanto si conectamos por el puerto `USB` como por el puerto `PWR IN`, de la placa) el firmware va a tardar un poco debido a que esta generando las claves de configuracion y demas. Dara un aviso de esto en la pantalla. 
+   - On the first boot (whether connected via the `USB` port or the motherboard's `PWR IN` port), the firmware will take a little while to load because it's generating the configuration keys and other information. A notification will appear on the screen during this process.
    
    ⚠️ ***NOTE:*** Durante esta parte de inicializacion no se debe de desconectar el dispositivo para evitar errores.
 
