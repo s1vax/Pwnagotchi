@@ -206,7 +206,7 @@ When you turn on your Pwnagotchi, it goes through different phases:`
 
    - In addition to the previous file, we will modify two other files: `config.txt` and `cmdline.txt`. We will do this by editing them and opening them with Notepad (right-clicking the file to be edited and selecting `Open with Notepad`).
    
-     - Para `config.txt`, eliminamos su codigo existente, y lo reemplazamos por:
+     - For `config.txt`, we remove its existing code and replace it with:
      
           ```
            # For more options and information see
@@ -300,7 +300,7 @@ When you turn on your Pwnagotchi, it goes through different phases:`
      
    <br>
 
-   - Seguido a ello, para realizar la primera prueba de funcionamiento, conectamos el cable Micro USB a la placa Raspberry en su puerto de `USB` (y no al puerto `PWR IN`), y el `USB A` del cable a nuestra PC. En el firmware de Pwnagotchi, el puerto `USB` de la Raspberry Pi se encuentra en un `safe mode` o mejor dicho, en un `manual mode`, esto significa que alimentando la placa por este puerto con el firmware cargado, no se ejecutara de forma automatica los procesos de desautenticacion y handshakes. Por lo que podremos corroborar si se ejecuta de forma correcta el programa, sin la necesidad de que automaticamente ataque a las redes cercanas.
+   - Next, to perform the first functionality test, we connected the Micro USB cable to the Raspberry Pi board in its `USB` port (and not to the `PWR IN` port), and the `USB A` of the cable to our PC. En el firmware de Pwnagotchi, el puerto `USB` de la Raspberry Pi se encuentra en un `safe mode` o mejor dicho, en un `manual mode`, esto significa que alimentando la placa por este puerto con el firmware cargado, no se ejecutara de forma automatica los procesos de desautenticacion y handshakes. Por lo que podremos corroborar si se ejecuta de forma correcta el programa, sin la necesidad de que automaticamente ataque a las redes cercanas.
    
 <br>
      
