@@ -1,7 +1,7 @@
 # (◕‿‿◕) Pwnagotchi 
 
 <p align="center">
-<img width="400" height="400" alt="WhatsApp Image 2026-04-27 at 12 16 46" src="https://github.com/user-attachments/assets/7599c37a-0f94-436d-b2f4-92932b664243" />
+<img width="450" height="500" alt="WhatsApp Image 2026-05-26 at 14 00 50" src="https://github.com/user-attachments/assets/0f9e8454-3988-4073-bb91-99c27390bef7" />
 </p>
 
 
@@ -295,7 +295,7 @@ When you turn on your Pwnagotchi, it goes through different phases:`
    
 <br>
 
-***⚠️ NOTE:*** Si conectamos el cable Micro USB a la Raspberry en su puerto `PWR IN`, o alimentamos la placa mediante la placa UPS Hat, el firmware de Pwnagotchi comenzara a actuar sin control alguno, es decir, entrara en su `auto mode` por defecto, capturando handshakes y desautenticando dispositivos. Para no infligir leyes, se debe proceder con una conexion y configuracion, segura y controlada.
+***⚠️ NOTE:*** If you connect the Micro USB cable to the Raspberry Pi's `PWR IN` port, or power the board using the Hat UPS board, the Pwnagotchi firmware will begin to operate uncontrollably, entering its default `auto mode`, capturing handshakes and deauthenticating devices. To avoid violating any laws, you must proceed with a secure and controlled connection and configuration.
 
 <br>
 <br>
