@@ -140,8 +140,8 @@ When you turn on your Pwnagotchi, it goes through different phases:`
         - `Measure the voltage of the LiPo battery`
           - Using a multimeter we will verify the voltage of the 3.7v LiPo battery.
           - We connect the multimeter probes to their respective connectors on the multimeter itself (black wire to `COM`, and red wire to `V, Ω, Hz, °C, ...`).
-          - Luego ponemos la llave selectora del multimetro en `V---` (voltaje o tension continua), y en el valor `6v`.
-          - Y por ultimo medimos. Colocamos el `cable rojo` del multimetro en la parte `roja o positiva` de la bateria, y el `cable negro` del multimetro en la parte `negra o negativa` de la bateria.
+          - Then we set the multimeter's selector switch to `V---` (DC voltage), and to the value `6v`.
+          - And finally, we take measurements. We place the `red lead` of the multimeter on the `red or positive` side of the battery, and the `black lead` of the multimeter on the `black or negative` side of the battery.
         
         - `Comprobar soldaduras de la Raspberry Pi Zero 2 W`
         
