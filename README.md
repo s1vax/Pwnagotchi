@@ -148,8 +148,8 @@ When you turn on your Pwnagotchi, it goes through different phases:`
         - `Check the operation of the Waveshare Hat UPS board` 
           - Connect the LiPo battery to the UPS board (if it wasn't already connected).
           - Next, we must turn the switch on `ON` on that board.
-          - Por medio de un cable `USB C` a `USB A`, conectaremos la placa UPS a nuestra PC. Cuando realicemos esto, se deberia encender un led rojo en la placa UPS, a la cual deberemos de dejar prendida unos segundos, y              la desconectamos. 
-          - Finalmente, bajamos el interruptor a `OFF` y prendemos nuevamente nuestra placa UPS Hat con el interruptor en `ON` (esto con el fin de hacer un reinicio), y ya deberia ser capaz de brindar alimentacion por su              cuenta.
+          - Using a `USB-C` to `USB-A` cable, connect the UPS to your PC. A red LED on the UPS should light up; leave it on for a few seconds, then disconnect it. 
+          - Finally, we turn the switch to `OFF` and turn our Hat UPS board back on with the switch in `ON` (this is to perform a reset), and it should now be able to provide power on its own.
 
    - Una vez verificado el sistema de fuente de alimentacion, mediante los tornillos que nos vienen incluidos en el paquete de Waveshare, colocamos el UPS Hat por debajo de la Raspberry Pi. Sobre el esta placa de alimentacion, 6 pines de la Raspberry Pi (del lado de los pines cortos y soldados, de la placa) deben hacer contacto y presion sobre los 6 pines retraibles que el UPS tiene.
    
