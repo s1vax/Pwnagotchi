@@ -300,7 +300,7 @@ When you turn on your Pwnagotchi, it goes through different phases:`
      
    <br>
 
-   - Next, to perform the first functionality test, we connected the Micro USB cable to the Raspberry Pi board in its `USB` port (and not to the `PWR IN` port), and the `USB A` of the cable to our PC. En el firmware de Pwnagotchi, el puerto `USB` de la Raspberry Pi se encuentra en un `safe mode` o mejor dicho, en un `manual mode`, esto significa que alimentando la placa por este puerto con el firmware cargado, no se ejecutara de forma automatica los procesos de desautenticacion y handshakes. Por lo que podremos corroborar si se ejecuta de forma correcta el programa, sin la necesidad de que automaticamente ataque a las redes cercanas.
+   - Next, to perform the first functionality test, we connected the Micro USB cable to the Raspberry Pi board in its `USB` port (and not to the `PWR IN` port), and the `USB A` of the cable to our PC. In Pwnagotchi's firmware, the Raspberry Pi's `USB` port is in a `safe mode` or rather, a `manual mode`. This means that powering the board through this port with the firmware loaded will not automatically execute the deauthentication and handshake processes. Therefore, we can verify if the program is running correctly, without the need for it to automatically attack nearby networks.
    
 <br>
      
