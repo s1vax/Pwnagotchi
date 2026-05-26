@@ -155,6 +155,8 @@ When you turn on your Pwnagotchi, it goes through different phases:`
    
    - Having completed the above, we proceed to install the e-ink display. To verify that it has been installed correctly, the 8-pin connector of this display must be parallel to, or on the same side as, the Raspberry Pi's connection ports (which are: `USB`, `Mini HDMI`, and `PWR IN`).
 
+   - The connection setup is complete ✅
+
 <br>
 <br>
 
