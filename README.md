@@ -284,7 +284,7 @@ When you turn on your Pwnagotchi, it goes through different phases:`
 
         ```
           
-     - Para `cmdline.txt`, eliminamos su codigo existente, y lo reemplazamos por:
+     - For `cmdline.txt`, we removed its existing code and replaced it with:
      
        ```
        console=serial0,115200 console=tty1 root=/dev/mmcblk0p2 rootfstype=ext4 fsck.repair=yes rootwait modules-load=dwc2,g_ether
@@ -292,11 +292,11 @@ When you turn on your Pwnagotchi, it goes through different phases:`
 
  <br>
 
-   - Guardamos los cambios en el bloc de notas (en cada archivo).
+   - We save the changes in Notepad (in each file).
 
  <br>
 
-   - Desconectamos el SD holder de nuestra PC y colocamos la SD en nuestra Raspberry Pi.
+   - We disconnect the SD holder from our PC and place the SD card in our Raspberry Pi.
      
    <br>
 
