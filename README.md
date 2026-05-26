@@ -151,9 +151,9 @@ When you turn on your Pwnagotchi, it goes through different phases:`
           - Using a `USB-C` to `USB-A` cable, connect the UPS to your PC. A red LED on the UPS should light up; leave it on for a few seconds, then disconnect it. 
           - Finally, we turn the switch to `OFF` and turn our Hat UPS board back on with the switch in `ON` (this is to perform a reset), and it should now be able to provide power on its own.
 
-   - Una vez verificado el sistema de fuente de alimentacion, mediante los tornillos que nos vienen incluidos en el paquete de Waveshare, colocamos el UPS Hat por debajo de la Raspberry Pi. Sobre el esta placa de alimentacion, 6 pines de la Raspberry Pi (del lado de los pines cortos y soldados, de la placa) deben hacer contacto y presion sobre los 6 pines retraibles que el UPS tiene.
+   - Once the power supply system is verified, using the screws included in the Waveshare package, place the UPS Hat underneath the Raspberry Pi. On this power supply board, 6 pins of the Raspberry Pi (on the short, soldered side of the board) must make contact and apply pressure to the 6 retractable pins on the UPS.
    
-   - Concluido con lo anterior, pasamos a colocar la pantalla de tinta electronica. Para comprobar si la hemos colocado correctamente, el conector de 8 pines de esta pantalla, debe estar en paralelo o del mismo                 lado, que los puertos de conexion de la Raspberry Pi (los cuales son: `USB`, `Mini HDMI` y `PWR IN`).
+   - Having completed the above, we proceed to install the e-ink display. To verify that it has been installed correctly, the 8-pin connector of this display must be parallel to, or on the same side as, the Raspberry Pi's connection ports (which are: `USB`, `Mini HDMI`, and `PWR IN`).
 
 <br>
 <br>
