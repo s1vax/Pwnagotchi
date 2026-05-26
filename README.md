@@ -133,9 +133,9 @@ When you turn on your Pwnagotchi, it goes through different phases:`
 ### 🛠️ Construction & Connections 
    - First, we'll solder all the pins of the Raspberry Pi Zero 2W. Be careful when soldering, as the pins can corrode/melt. An effective method for soldering without burning everything in the process is shown in the following video: https://www.youtube.com/watch?v=jYKzsLmMV6o
      
-   - Como paso siguiente, verificamos el sistema de alimentacion para el pwnagotchi:
+   - As a next step, we checked the feeding system for the pwnagotchi:
    
-      - ¿Como realizamos la verificacion?
+      - ¿How do we perform the verification?
       
         - `Medir la tension de la bateria LiPo`
           - Utilizando un multimetro, verificaremos la tension de la bateria LiPo de 3.7v.
