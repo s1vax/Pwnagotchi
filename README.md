@@ -143,9 +143,9 @@ When you turn on your Pwnagotchi, it goes through different phases:`
           - Then we set the multimeter's selector switch to `V---` (DC voltage), and to the value `6v`.
           - And finally, we take measurements. We place the `red lead` of the multimeter on the `red or positive` side of the battery, and the `black lead` of the multimeter on the `black or negative` side of the battery.
         
-        - `Comprobar soldaduras de la Raspberry Pi Zero 2 W`
+        - `Check the solder joints of the Raspberry Pi Zero 2W`
         
-        - `Comprobar funcionamiento de la placa UPS Hat de Waveshare` 
+        - `Check the operation of the Waveshare Hat UPS board` 
           - Conectar la bateria LiPo a la placa UPS (si no las teniamos conectada).
           - Luego, debemos colocar el interruptor en `ON` de dicha placa.
           - Por medio de un cable `USB C` a `USB A`, conectaremos la placa UPS a nuestra PC. Cuando realicemos esto, se deberia encender un led rojo en la placa UPS, a la cual deberemos de dejar prendida unos segundos, y              la desconectamos. 
