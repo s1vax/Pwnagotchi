@@ -146,8 +146,8 @@ When you turn on your Pwnagotchi, it goes through different phases:`
         - `Check the solder joints of the Raspberry Pi Zero 2W`
         
         - `Check the operation of the Waveshare Hat UPS board` 
-          - Conectar la bateria LiPo a la placa UPS (si no las teniamos conectada).
-          - Luego, debemos colocar el interruptor en `ON` de dicha placa.
+          - Connect the LiPo battery to the UPS board (if it wasn't already connected).
+          - Next, we must turn the switch on `ON` on that board.
           - Por medio de un cable `USB C` a `USB A`, conectaremos la placa UPS a nuestra PC. Cuando realicemos esto, se deberia encender un led rojo en la placa UPS, a la cual deberemos de dejar prendida unos segundos, y              la desconectamos. 
           - Finalmente, bajamos el interruptor a `OFF` y prendemos nuevamente nuestra placa UPS Hat con el interruptor en `ON` (esto con el fin de hacer un reinicio), y ya deberia ser capaz de brindar alimentacion por su              cuenta.
 
