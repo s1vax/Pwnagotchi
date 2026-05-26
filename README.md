@@ -189,7 +189,7 @@ When you turn on your Pwnagotchi, it goes through different phases:`
         - With this configuration, we will see all the extensions of our files in that disk folder.
         - So, what we'll do is select our created text file, right-click on it, and then click on `Rename`. Here we select everything, including the `.txt` extension, and enter: `config.toml`.
         - A warning message will appear indicating that we are changing the file extension type; click `OK`. At this point, your additional file will be created.
-        - Como es un archivo nuevo, no tiene ninguna informacion, comando o contenido alguno en el. A continuacion vamos a agregarle el codigo siguiente:
+        - Since it's a new file, it doesn't contain any information, commands, or other content. Next, we'll add the following code:
      
           ```     
            main.name = "pwnagotchi"
@@ -204,7 +204,7 @@ When you turn on your Pwnagotchi, it goes through different phases:`
           ```
 <br>
 
-   - En adicion al archivo anterior, vamos a modificar otros dos archivos: : `config.txt` y `cmdline.txt`. Lo haremos editandolos y abriendolos con el bloc de notas (dandole click derecho al archivo a editar, y seleccionando `Open with Notepad`).
+   - In addition to the previous file, we will modify two other files: `config.txt` and `cmdline.txt`. We will do this by editing them and opening them with Notepad (right-clicking the file to be edited and selecting `Open with Notepad`).
    
      - Para `config.txt`, eliminamos su codigo existente, y lo reemplazamos por:
      
