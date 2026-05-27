@@ -314,7 +314,7 @@ Para ello, en esta seccion, vamos a configurarlo con el objetivo de que realice 
 <br>
 
 ### 📡 Upgrades
-- ***Micro USB to USB A OTG Adapter***: Este adaptador nos permitira que la Raspberry Pi pueda tener acceso a otros dispositivos que permitan expandir sus capacidades.
+- ***Micro USB to USB A OTG Adapter***: This adapter allows the Raspberry Pi to access other devices, expanding its capabilities.
 
 <br>
 
