@@ -318,7 +318,7 @@ Para ello, en esta seccion, vamos a configurarlo con el objetivo de que realice 
 
 <br>
 
-- ***TP Link AC600 WIFI Antenna***: Junto al adaptador Micro USB OTG, podemos expandir el rango de ataque de nuestro dispositivo colocando una antena WIFI externa, siempre que tenga disponible la configuracion `Monitor`.
+- ***TP Link AC600 WIFI Antenna***: Junto al adaptador Micro USB OTG, podemos ampliar el rango de ataque de nuestro dispositivo colocando una antena WIFI externa, siempre que tenga disponible la configuracion `Monitor`. Esta lo que hace es expandir el radio de alcance de la señal WIFI, pudiendo lograr una mayor identificacion acces points, y permitiendo que el pwnagotchi, mediante su IA, aprenda y aplique lo visto en resultados anteriores de capturas de handshakes, en otros nuevos.
 
 <br>
 <br>
