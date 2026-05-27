@@ -317,7 +317,7 @@ Para ello, en esta seccion, vamos a configurarlo con el objetivo de que realice 
 - ***Micro USB to USB A OTG Adapter***: This adapter allows the Raspberry Pi to access other devices/peripherals, expanding its capabilities (e.g: keyboards, adapters, mouse, and more).
   - ¿What does OTG mean?
   
-    OTG (On-The-Go) is a technology that allows your cell phone or tablet to act as if it were a small computer. Mediante un cable o adaptador especial, puedes conectar periféricos y otros dispositivos directamente a          tu teléfono sin necesidad de un equipo intermedio
+    OTG (On-The-Go) is a technology that allows your cell phone or tablet to act as if it were a small computer. Using a special cable or adapter, you can connect peripherals and other devices directly to your phone           without the need for any intermediate equipment.
 
 <br>
 
