@@ -51,7 +51,7 @@ The creator of this repository is not responsible for any malicious or inappropr
 <br>
 
 ## ✅ Safe environments and measures
-You can target a personal network with the pwnagotchi attack as a proof of use, or simply put it in passive mode (`manual mode`). The repository will explain in detail how to do this.
+You can target a personal network with the pwnagotchi attack as a proof of use, or simply put it in passive mode (`manual mode`). The repository will explain in detail how to do this in the #Configuration section.
 
 <br>
 <br>
