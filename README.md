@@ -17,7 +17,6 @@
 │
 │
 ├── 🛒 Things we need
-│    
 │
 │
 ├── ❓ ¿What is Pwnagotchi & How it works?
@@ -29,21 +28,16 @@
 │    └── 💻 Firmware
 │       
 │
-│
 ├── ⚙️ Configuration
 │    
 │
-│
 ├── 🧩 Personalization and Options
-│
 │
 │
 ├── 📡 Upgrades
 │
 │
-│
 ├── 🧊 3D cases (📌 in progress)
-│
 │
 └── I hope you found it useful and entertaining. If so, leave a star ⭐ Best wishes and much success!
 ```
