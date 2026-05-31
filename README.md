@@ -51,7 +51,7 @@ The creator of this repository is not responsible for any malicious or inappropr
 <br>
 
 ## ✅ Safe environments and measures
-You can target a personal network with the pwnagotchi attack as a proof of use, or simply put it in passive mode (`manual mode`). The repository will explain in detail how to do this in the #Configuration section.
+You can target a personal network with the pwnagotchi attack as a proof of use, or simply put it in passive mode (`manual mode`). The repository will explain in detail how to do this in the  [⚙️ Configuration]()  section.
 
 <br>
 <br>
@@ -339,6 +339,8 @@ When you turn on your Pwnagotchi, it goes through different phases:`
 <br>
 <br>
 
+
+
 ## ⚙️ Configuration
 Hasta este punto, en los pasos anteriores, cuando conectemos nuestro cable Micro USB a la Raspberry por el puerto `PWR IN` (o simplemente brindandole alimentacion a la Raspberry Pi con el UPS Hat), y con nuestro firmware cargado, el Pwnagotchi empezara a actuar sin control, resultando un dispositivo peligroso para las redes WIFI cercanas, y ademas detectable (si, se puede saber cuando alguien esta utilizando un Pwnagotchi).
 
@@ -346,6 +348,8 @@ Para ello, en esta seccion, vamos a configurarlo con el objetivo de que realice 
 
 <br>
 <br>
+
+
 
 ## 🧩 Personalization and Options
 
