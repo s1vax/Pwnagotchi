@@ -4,6 +4,58 @@
 <img width="450" height="500" alt="WhatsApp Image 2026-05-26 at 14 00 50" src="https://github.com/user-attachments/assets/0f9e8454-3988-4073-bb91-99c27390bef7" />
 </p>
 
+<br>
+
+### 🗃️ Repository Structure
+```
+(✜‿‿✜) Pwnagotchi
+├── ⚖️ Disclaimer 
+│
+│
+├── ✅ Safe environments and measures
+│
+│
+├── 🛒 Things we need
+│    
+│
+│
+├── ❓ ¿What is Pwnagotchi & How it works?
+│
+│
+├── 🔎 Step by step
+│    ├── 🛠️ Construction & Connections
+│    │
+│    └── 💻 Firmware
+│       
+│
+│
+├── ⚙️ Configuration
+│    
+│
+│
+├── 🛠️ Hardware and Specific Configurations
+│    ├── 🔹 Heltec T114 v2 (with screen)
+│    │
+│    ├── 🔹 Seed Studio Xiao nrf52840
+│    │
+│    └── 🔹 Other Meshtastic models
+│
+│
+├── 🏔️ ¿How did we manage to install a node in a key public space? (📌 in progress)
+│
+│
+├── 🧊 3D cases (📌 in progress)
+│
+│
+├── 🏴‍☠️ Cybersecurity - Meshtastic Vulnerabilities (📌 in progress)
+│
+│
+├── 
+│
+└── I hope you found it useful and entertaining. If so, leave a star ⭐ Best wishes and much success!
+```
+
+<br>
 
 ## ⚖️ Legal Disclaimer
 The creator of this repository is not responsible for any malicious or inappropriate use of the device described. It is strictly prohibited to interfere with other Wi-Fi networks without consent or adequate security measures.
