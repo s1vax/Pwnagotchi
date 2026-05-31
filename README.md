@@ -34,24 +34,17 @@
 │    
 │
 │
-├── 🛠️ Hardware and Specific Configurations
-│    ├── 🔹 Heltec T114 v2 (with screen)
-│    │
-│    ├── 🔹 Seed Studio Xiao nrf52840
-│    │
-│    └── 🔹 Other Meshtastic models
+├── 🧩 Personalization and Options
 │
 │
-├── 🏔️ ¿How did we manage to install a node in a key public space? (📌 in progress)
+│
+├── 📡 Upgrades
+│
 │
 │
 ├── 🧊 3D cases (📌 in progress)
 │
 │
-├── 🏴‍☠️ Cybersecurity - Meshtastic Vulnerabilities (📌 in progress)
-│
-│
-├── 
 │
 └── I hope you found it useful and entertaining. If so, leave a star ⭐ Best wishes and much success!
 ```
