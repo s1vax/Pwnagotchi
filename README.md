@@ -378,4 +378,4 @@ Para ello, en esta seccion, vamos a configurarlo con el objetivo de que realice 
 <br>
 
 ### Credits to:
-- 
+- evilsocket --> https://github.com/evilsocket/pwnagotchi
