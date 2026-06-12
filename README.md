@@ -168,11 +168,11 @@ When you turn on your Pwnagotchi, it goes through different phases:`
 <br>
 
 ### 💻 Firmware
-   - Several websites offer different versions of pwnagotchi. In this repository, we will use the firmware located in the #firmware folder.
+   - Several websites offer different versions of pwnagotchi. In this repository, we will use the firmware located in: https://drive.google.com/drive/folders/10-VbyraY9a9flBsXKVyUMMx_WLD_m7vj?usp=sharing
 
 <br>
 
-   - Once the `.rar` file with extension `.img` has been downloaded from the #firmware folder, we need to prepare our Micro SD card in a Micro SD card holder to insert it into our PC and flash it with the file we downloaded.
+   - Once the `.rar` file with extension `.img` has been downloaded from the Google Drive link, we need to prepare our Micro SD card in a Micro SD card holder to insert it into our PC and flash it with the file we downloaded.
    <br>
      
    - To flash the card, it is recommended to use the applications: `balenaEtcher` o `Raspberry Imager`. Depending on which flashing tool we select, we must:
