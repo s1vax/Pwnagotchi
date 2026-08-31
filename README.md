@@ -342,7 +342,7 @@ When you turn on your Pwnagotchi, it goes through different phases:`
 
 
 ## ⚙️ Configuration
-Hasta este punto, en los pasos anteriores, cuando conectemos nuestro cable Micro USB a la Raspberry por el puerto `PWR IN` (o simplemente brindandole alimentacion a la Raspberry Pi con el UPS Hat), y con nuestro firmware cargado, el Pwnagotchi empezara a actuar sin control, resultando un dispositivo peligroso para las redes WIFI cercanas, y ademas detectable (si, se puede saber cuando alguien esta utilizando un Pwnagotchi).
+Hasta este punto, cuando conectemos nuestro cable Micro USB a la Raspberry por el puerto `PWR IN` (o simplemente brindandole alimentacion a la Raspberry Pi con el UPS Hat), y con nuestro firmware cargado, el Pwnagotchi empezara a actuar sin control, resultando un dispositivo peligroso para las redes WIFI cercanas, y ademas detectable (si, se puede saber cuando alguien esta utilizando un Pwnagotchi).
 
 Para ello, en esta seccion, vamos a configurarlo con el objetivo de que realice operaciones de pruebas controladas y seguras (sin importar por donde se alimente, garantizando seguridad).
 
