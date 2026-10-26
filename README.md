@@ -169,12 +169,13 @@ When you turn on your Pwnagotchi, it goes through different phases:`
 
 ### 💻 Firmware
    - Several websites offer different versions of pwnagotchi. In this repository, we will use 2 of them:
-       - The firmware located in: https://drive.google.com/drive/folders/10-VbyraY9a9flBsXKVyUMMx_WLD_m7vj?usp=sharing
-       - And the firmware from Jayofelony: https://github.com/jayofelony/pwnagotchi (here we must try and play with the pwnagotchi versions, each one has its characteristics & functionalities)
+      - The firmware located in: https://drive.google.com/drive/folders/10-VbyraY9a9flBsXKVyUMMx_WLD_m7vj?usp=sharing
+      - And the firmware from Jayofelony: https://github.com/jayofelony/pwnagotchi (here we must try and play with the pwnagotchi versions, each one has its characteristics & functionalities)
 
 <br>
 
-   - For the first one, once the `.rar` file with extension `.img` has been downloaded from the Google Drive link, we need to prepare our Micro SD card in a Micro SD card holder to insert it into our PC and flash it with the file we downloaded.
+1) The first version option
+   - Once the `.rar` file with extension `.img` has been downloaded from the Google Drive link, we need to prepare our Micro SD card in a Micro SD card holder to insert it into our PC and flash it with the file we downloaded.
    <br>
      
    - To flash the card, it is recommended to use the applications: `balenaEtcher` o `Raspberry Imager`. Depending on which flashing tool we select, we must:
@@ -381,3 +382,4 @@ Para ello, en esta seccion, vamos a configurarlo con el objetivo de que realice 
 
 🙌 Credits to:
 - evilsocket --> https://github.com/evilsocket/pwnagotchi
+- jayofelony --> https://github.com/jayofelony/pwnagotchi
