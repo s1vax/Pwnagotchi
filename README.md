@@ -175,6 +175,7 @@ When you turn on your Pwnagotchi, it goes through different phases:`
 <br>
 
 1) The first version option
+
    - Once the `.rar` file with extension `.img` has been downloaded from the Google Drive link, we need to prepare our Micro SD card in a Micro SD card holder to insert it into our PC and flash it with the file we downloaded.
    <br>
      
@@ -191,27 +192,27 @@ When you turn on your Pwnagotchi, it goes through different phases:`
        - Write the file.
 <br>
 
-   - Una vez flasheada la Micro SD, puede que al finalizar el flasheo, se abra una nueva ventana de carpeta de "disco" llamada `Boot` o `Bootloader`, en nuestra computadora. Si vemos que esto no ocurre, desconectamos y conectamos nuevamente nuestra Micro SD card holder, y ahi nos deberia de salir esa ventana emergente, o simplemente lo podemos buscar en el apartado de discos de nuestra computadora con el nombre anterior. En dicha carpeta de disco, debemos de agregar un archivo llamado `config` con extension `.toml`, en definitiva, `config.toml`. Este archivo esta relacionado con la pantalla de tinta electronica del Pwnagotchi, es necesario para que esta funcione. 
+    - Una vez flasheada la Micro SD, puede que al finalizar el flasheo, se abra una nueva ventana de carpeta de "disco" llamada `Boot` o `Bootloader`, en nuestra computadora. Si vemos que esto no ocurre, desconectamos y conectamos nuevamente nuestra Micro SD card holder, y ahi nos deberia de salir esa ventana emergente, o simplemente lo podemos buscar en el apartado de discos de nuestra computadora con el nombre anterior. En dicha carpeta de disco, debemos de agregar un archivo llamado `config` con extension `.toml`, en definitiva, `config.toml`. Este archivo esta relacionado con la pantalla de tinta electronica del Pwnagotchi, es necesario para que esta funcione. 
    
-      - ¿How do we add this file?
-        - To do this, we will create a common text file (give it any name).
-        - Next, we need to configure the file display in our Windows 11 disk folder. We'll go to `View`, then select `Show` from the drop-down menu, and finally `File name extensions`.
-        - With this configuration, we will see all the extensions of our files in that disk folder.
-        - So, what we'll do is select our created text file, right-click on it, and then click on `Rename`. Here we select everything, including the `.txt` extension, and enter: `config.toml`.
-        - A warning message will appear indicating that we are changing the file extension type; click `OK`. At this point, your additional file will be created.
-        - Since it's a new file, it doesn't contain any information, commands, or other content. Next, we'll add the following code:
+       - ¿How do we add this file?
+         - To do this, we will create a common text file (give it any name).
+         - Next, we need to configure the file display in our Windows 11 disk folder. We'll go to `View`, then select `Show` from the drop-down menu, and finally `File name extensions`.
+         - With this configuration, we will see all the extensions of our files in that disk folder.
+         - So, what we'll do is select our created text file, right-click on it, and then click on `Rename`. Here we select everything, including the `.txt` extension, and enter: `config.toml`.
+         - A warning message will appear indicating that we are changing the file extension type; click `OK`. At this point, your additional file will be created.
+         - Since it's a new file, it doesn't contain any information, commands, or other content. Next, we'll add the following code:
      
-          ```     
-           main.name = "pwnagotchi"
-           main.lang = "en"
-           main.whitelist = [
-           "TuRedWifi"
-            ]
+           ```     
+            main.name = "pwnagotchi"
+            main.lang = "en"
+            main.whitelist = [
+            "TuRedWifi"
+             ]
 
-            ui.display.enabled = true
-            ui.display.type = "waveshare_3" # o "waveshare_4", "waveshare_213d", etc.
-            ui.display.color = "black"
-          ```
+             ui.display.enabled = true
+             ui.display.type = "waveshare_3" # o "waveshare_4", "waveshare_213d", etc.
+             ui.display.color = "black"
+           ```
 <br>
 
    - In addition to the previous file, we will modify two other files: `config.txt` and `cmdline.txt`. We will do this by editing them and opening them with Notepad (right-clicking the file to be edited and selecting `Open with Notepad`).
